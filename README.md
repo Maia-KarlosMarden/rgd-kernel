@@ -66,7 +66,7 @@ X-COP (Ettori+2019) and CLASH (Umetsu+2016) data are embedded directly in
 ## Installation
 
 ```bash
-git clone https://github.com/<your-handle>/rgd-kernel.git
+git clone https://github.com/Maia-KarlosMarden/rgd-kernel.git
 cd rgd-kernel
 pip install numpy scipy matplotlib pandas   # matplotlib and pandas optional
 ```
