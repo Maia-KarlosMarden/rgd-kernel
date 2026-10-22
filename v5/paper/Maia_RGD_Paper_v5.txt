@@ -655,6 +655,45 @@ that behaves as pressureless matter. We make no claim about the CMB or large-sca
 
 Discussion
 
+Evolution with respect to Paper I
+
+What improves.
+
+(i) The radial law n(ξ)w^(−α(ξ)), with two parameters calibrated on the same X-COP data and an
+exponent that exceeds 1 inside r₅₀₀, is replaced by a scale shift with one amplitude that stays
+finite there (X-COP rms 0.037 → 0.016–0.021 dex, in-sample). (ii) With p frozen, the new term
+outperforms the v4 law inside r₅₀₀ (Vikhlinin, Allen and the groups, where v4 loses solutions or
+diverges) and is equivalent to it between r₅₀₀ and r₂₀₀ (Sect. 4.3). (iii) The program now carries
+an audit: provenance of each parameter, bootstrap intervals, sensitivity to hydrostatic bias, a
+hierarchical model of the amplitude (intrinsic scatter 0.05 among clusters) and an independent
+confirmation of the threshold in ξ (Sects. 4.3–4.4). (iv) The limits, the tensions and the
+cosmological failure of the linear kernel are stated rather than left implicit.
+
+What is weaker or more modest.
+
+(i) The headline numbers of Paper I (0.005 dex in-sample, 0.013 dex with A calibrated without CLASH,
+and a residual correlation r = 0.999 that Paper I itself decomposed into an algebraic part and a
+0.912 → 0.999 gain attributed to evolution) are not used here as evidence. (ii) The model has more
+parameters: the amplitude p and a switch in ξ (ξ_(c), m) that Paper I did not need, because it did
+not separate galaxies from groups. (iii) The evidence for g^(†) ∝ H(z) is weaker than in Paper I:
+the best exponent in clusters lies at the edge of the grid and galaxies at z ≃ 1–2 prefer a weaker
+evolution (Sect. 5). (iv) In groups the outcome depends on an unmeasured stellar mass, so they do
+not discriminate between models.
+
+What remains open.
+
+No blind test has been made; the mass trend of the baryon fraction at r₂₅₀₀ persists; the redshift
+dependence of p cannot be separated from that of g^(†) with the present data; there is no covariant
+formulation; and the cosmological extension reproduces ΛCDM growth only by postulate.
+
+Assessment.
+
+The gain in observational performance over Paper I is modest and concentrated in the radial sector
+of clusters; the gain in methodological rigour is large. Paper I showed a kernel that fitted well;
+this version shows what the kernel predicts, where it fails and with what uncertainty, which turns
+the program from a claim of fit into a testable hypothesis. A blind test on new samples with the
+archived frozen prescription is the next step needed before the claims can be stated more strongly.
+
 What the program claims
 
 1.  In bound systems with symmetric equilibrium the kernel, with λ, A, g^(†) fixed on galaxies and
