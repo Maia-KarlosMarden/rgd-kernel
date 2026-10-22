@@ -48,3 +48,9 @@ the measured-profile test is `xcop200.py`. Stellar masses follow Kravtsov+2018.
 
 ## Manuscript
 `paper/` holds the English manuscript (PDF, LaTeX, plain text), the figures and `make_figs.py`.
+
+## Referee-type checks (added with the final manuscript)
+- `ref31.py` – cluster bootstrap, frozen-p predictions on Vikhlinin / Ettori r200 / groups / Allen, best-fit p per sample.
+- `ref32.py` – sensitivity to hydrostatic bias and lensing calibration.
+- `ref34.py`, `ref34b.py` – width and location of the xi switch (logistic m, xi_c, p) and the power-law alternative.
+- `predict_frozen.py` – frozen prescription (p=0.5, xi_c=0.115, m=4, phi=0.7) to be applied to new samples before inspecting them.
