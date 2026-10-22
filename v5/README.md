@@ -54,3 +54,4 @@ the measured-profile test is `xcop200.py`. Stellar masses follow Kravtsov+2018.
 - `ref32.py` – sensitivity to hydrostatic bias and lensing calibration.
 - `ref34.py`, `ref34b.py` – width and location of the xi switch (logistic m, xi_c, p) and the power-law alternative.
 - `predict_frozen.py` – frozen prescription (p=0.5, xi_c=0.115, m=4, phi=0.7) to be applied to new samples before inspecting them.
+- `ref41.py`, `ref41b.py`, `ref41c.py` – hierarchical model of the per-system radial amplitude p_i (intrinsic scatter tau, covariates log M500, z, instrument, log Delta/Delta500, xi switch; cluster bootstrap).

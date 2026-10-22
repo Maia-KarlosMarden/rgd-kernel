@@ -255,9 +255,11 @@ The best-fit amplitudes range from 0.45 to 0.60 and their bootstrap intervals do
 0.40–0.50 against Ettori 0.60–0.65), so the scatter is systematic, not statistical: the five values
 have mean 0.52 and standard deviation 0.07. Near r₂₅₀₀ and r₂₀₀ a change of 0.05 in p shifts the
 predicted f_(bar) by about 0.13 in ln  (Vikhlinin:  − 0.28 →  − 0.15 from p = 0.45 to 0.50), so the
-amplitude is known to  ∼  ± 20% in the predicted baryon fraction. It is not a constant of nature at
-the level of the current data; sources are the hydrostatic bias (Sect. 8), the instrument zero
-points, and the unmeasured stellar mass.
+amplitude is known to  ∼  ± 20% in the predicted baryon fraction when samples are compared. It is
+not a constant at the level of the current data; the hierarchical model of Sect. 4.4 separates an
+intrinsic scatter of 0.05 among clusters from a larger one among groups, and sources of the
+sample-to-sample differences are the hydrostatic bias (Sect. 8), the instrument zero points and the
+unmeasured stellar mass.
 
 What is, and is not, held out.
 
@@ -266,6 +268,74 @@ of the model (a mass-dependent p(ξ), Sect. 8) were evaluated on the same data,
 treatment of the groups was adopted after the 9% case was inspected, and the samples overlap. A
 blind test requires data not used here. The frozen prescription (parameters and code) is archived
 with this paper (Appendix A) so that it can be applied to new samples before they are examined.
+
+A hierarchical model for the amplitude
+
+To separate intrinsic scatter in p from measurement error and from covariates we solved, for every
+system with a measured gas fraction, the exponent p_(i) that reproduces its observed f_(bar) at the
+test radius (Vikhlinin r₂₅₀₀, Ettori r₂₀₀ with all 12 clusters, Allen r₂₅₀₀, 43 groups at r₂₅₀₀; 102
+systems, 92 distinct clusters), and propagated an error σ_(i) from a 10% error on f_(bar) (Allen:
+the published error, median 13%) and a 10% error on the mass. The model is
+p_(i) = μ + x_(i) ⋅ β + ε_(i),   ε_(i) ∼ 𝒩(0,τ²+σ_(i)²),
+with covariates x_(i) = (logM₅₀₀, z, XMM, logΔ/Δ₅₀₀) (XMM = 1 for X-COP and the Lovisari groups, 0
+for Chandra samples), fitted by maximum likelihood; intervals on τ are profile likelihoods and on β
+cluster bootstraps over the 92 distinct clusters. In a second version μ is replaced by p₀Θ(ξ_(i)),
+the switch of Sect. 6, in which case p_(i) is the effective exponent pΘ.
+
+  Model                                  N       μ or p₀            τ [95%]          homogeneity χ²
+  ------------------------------------ ----- --------------- ---------------------- ----------------
+  constant p, all systems               102   0.497 ± 0.015   0.142 [0.122, 0.168]     659 / 101
+  constant p, clusters                  59    0.526 ± 0.009   0.046 [0.028, 0.068]      129 / 58
+  constant p, groups                    43    0.448 ± 0.032   0.200 [0.163, 0.255]      514 / 42
+  switch (m = 8, ξ_(c) = 0.157), all    102   0.532 ± 0.014          0.120          
+  switch, clusters                      59    0.527 ± 0.009          0.046          
+  switch, groups                        43    0.533 ± 0.032          0.174          
+
+  : Hierarchical model of the per-system amplitude p_(i). τ is the intrinsic scatter in p. The last
+  column is χ²/d.o.f. of the fixed mean with measurement errors only.
+
+  Covariate             all (constant p)       clusters            groups        all, after switch
+  -------------------- ------------------ ------------------ ------------------ -------------------
+  log M₅₀₀ (per dex)     + 0.099 ± 0.026    + 0.018 ± 0.041     + 0.34 ± 0.11     − 0.002 ± 0.023
+  z                       + 0.05 ± 0.08     − 0.104 ± 0.046      + 3.0 ± 1.3      − 0.089 ± 0.074
+  XMM                    − 0.078 ± 0.032    + 0.045 ± 0.027    − 0.166 ± 0.059    − 0.021 ± 0.028
+  log Δ/Δ₅₀₀             − 0.091 ± 0.044    − 0.041 ± 0.024          —            − 0.045 ± 0.037
+
+  : Coefficients β of each covariate added alone. For clusters only, XMM and log Δ/Δ₅₀₀ are
+  confounded with the sample (Ettori is the only XMM cluster sample and the only one at r₂₀₀).
+
+Results.
+
+(i) The amplitude is heterogeneous: with measurement errors alone the homogeneity χ² is 659 for 101
+degrees of freedom (still 337 if the errors are inflated by 50%), so a pure constant is excluded and
+the intrinsic scatter is τ = 0.14 [0.12, 0.17], i.e. 28% of p. (ii) The scatter is not uniform:
+among clusters it is τ = 0.046 [0.028, 0.068] around μ = 0.526 ± 0.009, which corresponds to  ∼ 13%
+in the predicted baryon fraction (using ∂ln f_(bar)/∂p ≃ 2.7 near r₂₅₀₀ and r₂₀₀); among groups it
+is 0.17–0.20 ( ∼ 50%), where the stellar mass is not measured and the sample mixes two instruments.
+(iii) The correlation of p_(i) with mass ( + 0.099 ± 0.026 per dex, Δ(−2lnL) = 13.9) comes from the
+groups ( + 0.34 ± 0.11) and is absent among clusters ( + 0.018 ± 0.041); once the ξ switch is
+included it vanishes ( − 0.002 ± 0.023). The switch (m = 8, ξ_(c) = 0.157 [0.138, 0.171] by
+bootstrap, p₀ = 0.534 [0.511, 0.559]) improves on a constant by Δ(−2lnL) = 27.6 for two parameters
+(bootstrap median 31, lower 2.5% quantile 9.9), an independent confirmation of the threshold of
+Sect. 6 that does not use galaxies; its location is higher than in the joint fit with SPARC, which
+is consistent with the flat likelihood found there. (iv) Redshift, instrument and radius do not
+carry significant residual dependence individually after the switch ( − 0.089 ± 0.074,
+ − 0.021 ± 0.028,  − 0.045 ± 0.037); jointly they improve the likelihood by 10.7 for four degrees of
+freedom (p ≃ 0.03). Before the switch, the four-covariate fit gives bootstrap intervals for z
+( − 0.13 [ − 0.26,  − 0.05]), XMM ( − 0.14 [ − 0.25,  − 0.03]) and log Δ/Δ₅₀₀ ( − 0.15 [ − 0.29,
+ − 0.01]) that exclude zero, but these are collinear with sample membership and are not robust to
+the switch.
+
+Robustness and limits.
+
+τ stays within 0.12–0.15 when the errors are halved or multiplied by 1.5, when the three X-COP
+mergers are dropped (0.137), when only one measurement per cluster is kept (0.150, 92 systems) or
+when g^(†) ∝ E^(0.5) or E^(1.5) is used (0.147, 0.141). The coefficient of z is degenerate with the
+exponent α of g^(†)(z): for clusters only it is  − 0.104 ± 0.046 at α = 1 (2.3σ) and it changes with
+α, so a trend of p with redshift cannot be separated from a mis-specified evolution of g^(†) with
+these data. The Gaussian form of ε, the assumed σ_(f) and σ_(M), the single radius per system and
+the sample overlap (handled only by the cluster bootstrap) limit the precision of τ; a per-system
+p_(i) also absorbs any error in the baryon fraction.
 
 Evolution of g^(†)
 
@@ -277,7 +347,7 @@ Clusters: measured gas fractions
 
 Allen et al. (2008, 42 clusters, cumulative f_(gas)(r₂₅₀₀)) and Mantz et al. (2014, 40 clusters,
 shell f_(gas)) are fitted with p = 0.5, c₅₀₀ = 3 (to convert M₂₅₀₀ to M₅₀₀ for ξ), a stellar
-addition of 9% and a free normalisation. Table 5 shows χ²(α).
+addition of 9% and a free normalisation. Table 7 shows χ²(α).
 
   α                         0     0.25    0.50    0.75    1.00    1.25    1.50
   ---------------------- ------- ------- ------- ------- ------- ------- -------
@@ -293,12 +363,12 @@ addition of 9% and a free normalisation. Table 5 shows χ²(α).
 A frozen g^(†) (α = 0) is rejected with Δχ² = 57 (Allen) and 48 (Mantz) relative to α = 1, and α = 1
 is 5.4 and 1.5 above the respective minima. With p = 0.46 the pattern is the same (χ² = 82.8 and
 134.1 at α = 1). In the earlier version of this test, in which only the kernel argument was frozen
-and ξ still followed H(z), the Allen χ² was 267 against 69; the numbers in Table 5 are the
+and ξ still followed H(z), the Allen χ² was 267 against 69; the numbers in Table 7 are the
 consistent version.
 
 Galaxies at z ≃ 1–2
 
-Übler et al. (2017, 135 KMOS^(3D) galaxies) give median properties in three bins (Table 6). We model
+Übler et al. (2017, 135 KMOS^(3D) galaxies) give median properties in three bins (Table 8). We model
 each bin as an exponential disk with the median baryonic mass and effective radius
 (R_(d) = R_(e)/1.678, all baryons in the same disk), compute
 v_(circ)(r)=√(K_(eff) g_(bar) r) with n = 1/2, s = 1 and take its
@@ -353,7 +423,7 @@ Must the switch be a sharp step?
 We fitted Θ = [1+(ξ_(c)/ξ)^(m)]⁻¹ with free (ξ_(c),m,p) jointly to the X-COP points, the SPARC
 galaxies and the 43 groups (Kravtsov stars, φ = 0.7), weighting the three samples by their number of
 independent units (13 clusters, 141 galaxies, 43 groups; weighting by points would let the 2803
-SPARC points dominate the likelihood). Table 7 gives the best fit for fixed m.
+SPARC points dominate the likelihood). Table 9 gives the best fit for fixed m.
 
   m                          Δ(−2lnL) A   Δ(−2lnL) B   ξ_(c) (A / B)           p (A / B)
   ------------------------- ------------ ------------ --------------- ----------------------------
@@ -408,7 +478,7 @@ is Δlog v = 0.25log₁₀E(z) ( + 0.061 dex at z = 1,  + 0.11
 
 Comparison with ΛCDM
 
-Table 8 compares the kernel with NFW haloes (Navarro et al. 1997) added to the same baryons, using
+Table 10 compares the kernel with NFW haloes (Navarro et al. 1997) added to the same baryons, using
 either the concentration–mass relation of Duffy et al. (2008) or a free concentration.
 
   Regime             Model                            free par.     rms [dex]           AIC        note
@@ -572,13 +642,13 @@ What the program claims
 
 1.  In bound systems with symmetric equilibrium the kernel, with λ, A, g^(†) fixed on galaxies and
     groups, describes the baryon fraction across four orders of magnitude in mass with one radial
-    amplitude (p = 0.52 ± 0.07, the error being the dispersion between samples) and one switch in ξ
-    (ξ_(c) ≃ 0.09–0.16, width m ≥ 3).
+    amplitude (p₀ = 0.53, with intrinsic scatter 0.05 among clusters and 0.17 among groups,
+    Sect. 4.4) and one switch in ξ (ξ_(c) ≃ 0.09–0.16, width m ≥ 3).
 
 2.  The radial term [Δ/Δ₅₀₀]^(p) replaces the two-parameter exponent modulation, reduces the X-COP
     rms from 0.037 to 0.016–0.021 dex (in-sample) and, unlike the former, extends inside r₅₀₀ and,
     with p frozen, to r₂₅₀₀ and r₂₀₀ on held-out (not blind) data, with a predicted baryon fraction
-    good to  ∼ 20% at the amplitude dispersion found.
+    good to  ∼ 13% (intrinsic scatter) in clusters and much less in groups.
 
 3.  g^(†) ∝ H(z) is the preferred evolution in clusters and is not excluded in galaxies at z ≃ 1–2
     within current systematics.
@@ -606,10 +676,10 @@ completions (e.g. AeST) address the CMB by adding a field; the kernel does not.
 Agenda for falsification
 
 1.  Radial parameter. Resolved gas and lensing profiles (X-COP, eROSITA, XXL) should give
-    p = 0.5 ± 0.1 independent of ξ and mass; given the present sample-to-sample dispersion of 0.07,
-    a single sample outside 0.5 ± 0.15 is not decisive, but |p−0.5| > 0.15 in several independent
-    samples or a significant mass dependence falsifies the scale shift. Apply the archived frozen
-    prescription before looking at the data.
+    p = 0.5 ± 0.1 independent of ξ and mass; given the present intrinsic scatter of 0.05 among
+    clusters (0.17 among groups), a single system or sample outside 0.5 ± 0.15 is not decisive, but
+    |p−0.5| > 0.15 in several independent samples or a significant mass dependence falsifies the
+    scale shift. Apply the archived frozen prescription before looking at the data.
 
 2.  Evolution of g^(†). Clusters at z > 0.5 with measured gas fractions (SPT, XMM) and larger
     samples of z ≃ 1–2 rotation curves should converge on a common α; independent samples preferring
@@ -660,9 +730,11 @@ Established.
 
 Not established.
 
-1.  The amplitude p is not a constant at the current precision: the best-fit values range from 0.45
-    to 0.60 between samples (mean 0.52, standard deviation 0.07), a systematic of order 20% in the
-    predicted baryon fraction.
+1.  The amplitude p is not an exact constant: the hierarchical model gives an intrinsic scatter of
+    0.05 among clusters ( ∼ 13% in the predicted baryon fraction) and 0.17 among groups, with
+    sample-to-sample best-fit values of 0.45–0.60; no dependence on mass, redshift or instrument
+    survives individually once the ξ switch is included, but the redshift coefficient is degenerate
+    with the evolution of g^(†).
 
 2.  The sharpness and location of the galaxy–group switch are loosely constrained, and the group
     amplitude depends on an unmeasured stellar mass.
@@ -699,19 +771,19 @@ fixed on galaxies and A, p and the switch fixed on groups and clusters, all froz
 prescription. Three practical consequences follow, within the accuracy documented above. (i)
 Forecasting without a halo fit. A rotation curve, a baryon fraction at r₂₅₀₀ or the threshold mass
 at which a system leaves the galactic regime can be stated before the data are taken, with an error
-budget (0.14 dex in galaxies,  ∼ 20% in the cluster baryon fraction), whereas an NFW description
-needs one or two free parameters per galaxy (141–282 for the SPARC sample) or one mass per cluster,
-and can absorb a mismatch that the kernel cannot. (ii) Cheap and auditable computation. Each
-prediction is a single root-finding with no sampling, so it can be applied to large surveys or to
-sparse and high-redshift data where halo parameters are unconstrained, and any discrepancy is
+budget (0.14 dex in galaxies,  ∼ 13% intrinsic in the cluster baryon fraction), whereas an NFW
+description needs one or two free parameters per galaxy (141–282 for the SPARC sample) or one mass
+per cluster, and can absorb a mismatch that the kernel cannot. (ii) Cheap and auditable computation.
+Each prediction is a single root-finding with no sampling, so it can be applied to large surveys or
+to sparse and high-redshift data where halo parameters are unconstrained, and any discrepancy is
 attributable to one of a handful of numbers rather than to a degenerate fit. (iii) Falsifiability.
 The same scarcity of parameters is what exposed the tensions of Sect. 8 and the dispersion of p in
 Sect. 4.3; each further sample either confirms the frozen values or breaks them. Parsimony is a
 virtue only while the accuracy holds: the kernel fits galaxies worse than haloes (0.142 against
-0.087 dex), the amplitude p carries a  ∼ 20% systematic, and it needs a measured baryonic profile as
-input. Its practical role is therefore a first-order, reproducible estimator of dynamical masses in
-bound systems, and a sharp test for competing descriptions, not a replacement of halo fitting where
-precision is required.
+0.087 dex), the amplitude p has an intrinsic scatter ( ∼ 13% in the predicted baryon fraction for
+clusters, larger for groups), and it needs a measured baryonic profile as input. Its practical role
+is therefore a first-order, reproducible estimator of dynamical masses in bound systems, and a sharp
+test for competing descriptions, not a replacement of halo fitting where precision is required.
 
 Data and code availability
 
@@ -733,13 +805,14 @@ the author’s.
 Reproducibility notes
 
 -   Scripts are run from inside the v5 folder (several use exec(open(…))); v4_vs_v5.py reproduces
-    Table 3, v4_indep.py the independent radial tests, alpha_scan.py Table 5, highz_tf.py Table 6,
-    lcdm_compare.py Table 8, cmb_regime.py and damper_test.py Sect. 9.
+    Table 3, v4_indep.py the independent radial tests, alpha_scan.py Table 7, highz_tf.py Table 8,
+    lcdm_compare.py Table 10, cmb_regime.py and damper_test.py Sect. 9.
 
 -   Referee-type checks: ref31.py (bootstrap, frozen-p tables, best-fit p per sample; Sect. 4.3),
-    ref32.py (hydrostatic bias; Sect. 8), ref34.py (switch width and location; Table 7).
-    predict_frozen.py implements the frozen prescription (p = 0.5, ξ_(c) = 0.115, m = 4, φ = 0.7, λ,
-    A, g^(†) = cH/2π) for new samples.
+    ref32.py (hydrostatic bias; Sect. 8), ref34.py (switch width and location; Table 9), ref41.py,
+    ref41b.py, ref41c.py (hierarchical model of p; Sect. 4.4). predict_frozen.py implements the
+    frozen prescription (p = 0.5, ξ_(c) = 0.115, m = 4, φ = 0.7, λ, A, g^(†) = cH/2π) for new
+    samples.
 
 -   SPARC Table 2 is not redistributed; set the environment variable SPARC_TABLE2.
 
