@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Relational Gravitational Dynamics: a one-parameter radial term, tests of g†(z), and the cosmological limits of the kernel"
+version: "5"
+date-released: 2026-10-22
+authors:
+  - family-names: Maia
+    given-names: Karlos Marden
+    affiliation: "Independent Researcher, Marietta, Georgia, USA"
+repository-code: "https://github.com/Maia-KarlosMarden/rgd-kernel"
+keywords: [modified gravity, dark matter alternatives, galaxy clusters, radial acceleration relation, Tully-Fisher relation]

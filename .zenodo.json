@@ -1,0 +1,11 @@
+{
+  "title": "Relational Gravitational Dynamics: a one-parameter radial term, tests of g†(z), and the cosmological limits of the kernel",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Maia, Karlos Marden", "affiliation": "Independent Researcher, Marietta, Georgia, USA"}],
+  "description": "Version 5 (supersedes v4 of April 28, 2026). Replaces the two-parameter radial law of Paper I by a one-parameter scale shift, tests g†(z)=cH(z)/2π with measured gas fractions and z≈1–2 galaxies, compares with ΛCDM haloes, documents tensions, and characterises the cosmological limits of the kernel. Code and data: https://github.com/Maia-KarlosMarden/rgd-kernel",
+  "keywords": ["modified gravity", "dark matter alternatives", "galaxy clusters", "radial acceleration relation", "baryon fraction", "Tully-Fisher relation"],
+  "version": "5",
+  "language": "eng",
+  "related_identifiers": [{"identifier": "https://github.com/Maia-KarlosMarden/rgd-kernel", "relation": "isSupplementedBy", "scheme": "url"}]
+}

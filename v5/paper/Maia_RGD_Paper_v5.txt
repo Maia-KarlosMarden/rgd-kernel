@@ -1,0 +1,578 @@
+Relational Gravitational Dynamics:
+a one-parameter radial term, tests of g^(†)(z),
+and the cosmological limits of the kernel
+Unifying disk galaxies, galaxy groups and galaxy clusters
+under a single effective law — second paper
+Karlos Marden Maia
+Independent Researcher ⋅ Marietta, Georgia, USA
+October 22, 2026
+Version 5 (supersedes v4 of April 28, 2026)
+
+Keywords: dark matter alternatives ⋅ modified gravity ⋅ galaxy clusters ⋅ radial acceleration
+relation ⋅ baryon fraction ⋅ Tully–Fisher relation ⋅ cosmological evolution of g^(†)
+
+Introduction
+
+The kernel proposed in the first paper of this program (v4, hereafter Paper I) maps the baryonic
+acceleration g_(bar) of a bound system to its observed acceleration, g_(obs) = K_(eff) g_(bar),
+using a transition scale g^(†)(z) = cH(z)/2π and an exponent n that depends on the equilibrium
+geometry through the compactness ξ = g₅₀₀/g^(†)(z). Paper I tested it on SPARC disk galaxies, 23
+groups, 13 X-COP clusters and 23 CLASH clusters and listed its own limitations. Four of them are the
+subject of this work.
+
+1.  The radial law was semi-predictive. The factor w^(−α(ξ)), with α(ξ) = 0.355(1−e^(−ξ/0.052)),
+    used two parameters derived earlier from a subset of eight X-COP clusters, and the 39-point test
+    of Paper I partially overlaps that calibration. Paper I lists validation on resolved profiles,
+    with a falsification criterion of 0.10 dex, as an open item.
+
+2.  The evidence for g^(†) ∝ H(z) rested on CLASH gas fractions estimated from a scaling relation.
+    Paper I itself discusses whether part of the residual correlation is algebraic.
+
+3.  Groups were 23 and no variable switched the radial term between galaxies and clusters.
+
+4.  No test at high redshift and no treatment of cosmological scales were given; the extension was
+    declared outside the scope.
+
+We (i) replace the radial law by a one-parameter scale shift and compare it with the v4 law on the
+same and on independent data (Sect. 4); (ii) test g^(†)(z) with measured gas fractions and with
+z ≃ 1–2 galaxies (Sect. 5); (iii) introduce a step in ξ connecting galaxies to groups and clusters
+and derive its redshift dependence (Sect. 6); (iv) compare with ΛCDM (Sect. 7); (v) document the
+tensions (Sect. 8); and (vi) examine what happens when the kernel is applied to cosmological
+perturbations and how a density-based damper behaves (Sect. 9). Section 10 states what the program
+does and does not claim, and lists falsifiable tests.
+
+The kernel and its radial extension
+
+Definition
+
+For a bound, spherically or axially symmetric system in equilibrium,
+
+    K_(eff)= 1+(λ e^(-x/s))/((1-e^(-x/s))^n), x=(g_(bar))/(g^†(z)), g^†(z)=(cH(z))/2π,
+
+with λ = 0.999, H₀ = 70 km s⁻¹ Mpc⁻¹, Ω_(m) = 0.3, and the exponent law of Paper I,
+
+    n(ξ)=1/2+A ξ, A=0.4068, ξ=g₅₀₀/(g^†(z))=(2π G M₅₀₀)/(c H(z) R₅₀₀²).
+
+For s = 1 and ξ → 0 this is the disk-galaxy kernel (n = 1/2) with the baryonic Tully–Fisher relation
+v_(f)⁴ = λ²g^(†)GM_(b) as a structural consequence. The compactness ξ scales as (MH)^(1/3).
+
+Radial term
+
+Paper I modulated the exponent, n → n(ξ) w^(−α(ξ)) with w = r/R₅₀₀. Here the exponent is kept at its
+w = 1 value and the radial dependence enters through the scale s,
+
+    s=[(Δ(r))/Δ₅₀₀]^(p Θ(ξ-ξ_c)), (Δ(r))/Δ₅₀₀=(ρ(<r))/(500 ρ_c(z))=(M(<r))/M₅₀₀(R₅₀₀/r)³.
+
+By definition Δ/Δ₅₀₀ = 1 at r₅₀₀, 5 at r₂₅₀₀ and 0.4 at r₂₀₀, so p is the only radial parameter and
+the w = 1 calibration of Paper I is untouched. Θ is a step in ξ, implemented as
+Θ = [1+(ξ_(c)/ξ)^(m)]⁻¹ with m ≥ 32, and ξ_(c) is bracketed by the data (Sect. 6). Systems with
+ξ < ξ_(c) have s = 1.
+
+Self-consistent baryon fraction
+
+In a system with total enclosed mass M(<r) and baryonic fraction f = M_(bar)/M, g_(obs) = GM/r² and
+x = f g_(obs)/g^(†); the identity K = g_(obs)/g_(bar) = 1/f gives the equation
+f K(f g_(obs)/g^(†)) = 1, solved for f. The prediction is a baryon fraction, which is compared with
+the observed gas plus stellar fraction. Because the observable depends on the measured total mass,
+hydrostatic masses are interpreted as the effective dynamical mass g_(obs)r²/G; they are unbiased
+with respect to the gravity law if the gas is in equilibrium in the potential of Eq. ([eq:K])
+(Sect. 8).
+
+Data and method
+
+Table 1 lists the samples. Tables for Allen, Mantz, Vikhlinin, Lovisari, Sun, Ettori and Umetsu were
+transcribed from the published papers (Appendix 12) and cross-checked where redundancy allows (e.g.
+Mantz M₂₅₀₀ against the value implied by r₂₅₀₀ and the critical density, median ratio 0.999;
+Vikhlinin M₅₀₀ against 500ρ_(c)(4π/3)r₅₀₀³, 0.96–1.02).
+
+  Sample                                        N                                Observable                                           Use
+  --------------------------------------------- -------------------------------- ---------------------------------------------------- ----------------------
+  SPARC (Lelli et al. 2016), Table 2            175 gal. (2803 pts after cuts)   rotation curves                                      galaxies, s = 1
+  Lovisari+15, Sun+09                           43 groups                        M, M_(gas) at r₅₀₀, r₂₅₀₀                            transition regime
+  X-COP (Ettori+19, Eckert+19, Ghirardini+19)   13 / 12 clusters                 M(<r) at 0.5, 1, 1.5 Mpc / f_(gas)(r₅₀₀,r₂₀₀)        radial term
+  Vikhlinin+06                                  12 (10 with both radii)          M₂₅₀₀, cumulative f_(gas) at r₂₅₀₀, r₅₀₀             radial term at r₂₅₀₀
+  Allen+08                                      42                               cumulative f_(gas)(r₂₅₀₀), z ≤ 1.1                   g^(†)(z)
+  Mantz+14                                      40                               shell f_(gas) at 0.8–1.2 r₂₅₀₀, z = 0.08–1.06        g^(†)(z)
+  CLASH (Umetsu+16)                             12 overlapping                   lensing M₂₅₀₀, M₅₀₀                                  HSE vs. lensing
+  KMOS^(3D) (Übler+17)                          135 gal. (3 bins)                M_(bar), R_(e), v_(circ, max) at z ≃ 0.9, 1.5, 2.3   high-z galaxies
+
+  : Samples. For SPARC, points with V > 0, R > 0 and σ_(V)/V < 0.1 are used, with Υ_(disk) = 0.5 and
+  Υ_(bul) = 0.7 for all models; the comparison with halos uses the 141 galaxies with  ≥ 5 points
+  (2736 points).
+
+Statistics.
+
+Residuals are in log₁₀ (dex) unless stated as ln ; model comparison uses  − 2ln L = ∑Nln (rms²) with
+AIC  = ∑Nln (rms²) + 2k, counting only the parameters added to the fixed λ, A, g^(†). When the
+observable measures only the redshift or radial shape (Mantz shells, Allen cumulative fractions) the
+normalisation is a free scalar. Cluster stellar masses follow Kravtsov et al. (2018) (the relation
+of Gonzalez et al. 2013 was used only as an alternative in cross-checks),
+log M_(*,tot) = 12.71 + 0.59(logM₅₀₀−14.5) (0.11 dex scatter, M₅₀₀ = 4.6 × 10¹³–1.6 × 10¹⁵ M_(⊙)),
+with a fraction φ of it inside r₂₅₀₀ (φ = 0.7, 1.0 inside r₅₀₀). A hard-coded stellar fraction of 9%
+of the gas is used where noted. The radial parameter p and φ are the only quantities adjusted
+outside the calibration of Paper I; φ has not been measured and is varied (0.5–0.7).
+
+The radial term: comparison with the v4 law
+
+Same data as Paper I
+
+We reproduce the v4 test on the 39 X-COP points (13 clusters at r = 0.5, 1.0, 1.5 Mpc,
+w = 0.35–1.66, f_(bar) = 1.09 f_(gas)(M₅₀₀) from the Sun et al. scaling relation as in Paper I). The
+law n(ξ)w^(−α(ξ)) gives 0.037 dex (Paper I: 0.040; the small difference may come from details of the
+input masses and baryon fraction that we could not reproduce exactly), fixing n at w = 1 gives
+0.126, Newton alone 0.878, MOND 0.257 (Table 2).
+
+  Model                          extra par.   rms [dex]   0.5 Mpc   1.0 Mpc   1.5 Mpc    AIC
+  ----------------------------- ------------ ----------- --------- --------- --------- --------
+  n(ξ) fixed at w = 1                0          0.126      0.197     0.062     0.071     − 162
+  v4: n(ξ) w^(−α(ξ))                 2          0.037      0.062     0.013     0.011     − 253
+  This work, p = 0.5 fixed           0          0.021      0.035     0.006     0.008     − 301
+  This work, p = 0.45 fitted         1          0.016      0.024     0.007     0.012     − 321
+  NFW + Duffy c(M), M₂₀₀ free        13         0.039        —         —         —       − 227
+
+  : X-COP, 39 points. Δ/Δ₅₀₀ takes median values 5.2, 1.5 and 0.67 at the three radii. A
+  leave-one-cluster-out fit gives p = 0.45–0.46 for every omitted cluster and a predictive rms of
+  0.017 dex. The v4 exponent modulation and the new scale shift are both calibrated on this sample,
+  so this comparison is not independent.
+
+[]
+
+(a) rms residual by physical radius in the X-COP sample. (b) Predicted and observed
+f_(bar)(r₂₅₀₀)/f_(bar)(r₅₀₀) in ten Vikhlinin et al. clusters. (c) Same ratio at r₂₀₀/r₅₀₀ in nine
+X-COP clusters with measured f_(gas) (Ettori et al. 2019). “no radial” denotes n(ξ) at w = 1 with
+s = 1.
+
+Independent data
+
+Vikhlinin et al. (2006), r₂₅₀₀.
+
+For the ten clusters with cumulative f_(gas) at both radii (ξ = 0.23–0.59,
+M₅₀₀ = 7.4 × 10¹³–1.1 × 10¹⁵ M_(⊙), w = r₂₅₀₀/r₅₀₀ = 0.39–0.48) the control at r₅₀₀, where the
+radial term plays no role, gives obs/pred  = 0.95 (rms 0.13 in ln ). At r₂₅₀₀ without a radial term
+obs/pred is 0.26 (rms_(ln) 1.35, predicted f_(bar)(r₂₅₀₀)/f_(bar)(r₅₀₀) = 3.37); with the v4 law
+0.45 (rms_(ln) 0.90, ratio 1.95, and one of the ten clusters has no solution because n > 1 inside
+w ≃ 0.45); with the scale shift 0.84 (rms_(ln) 0.23, ratio 1.00). The observed ratio is 0.90. The v4
+law, which scales the exponent as w^(−α), drives n beyond 1 at w < 1 for the highest ξ, where the
+kernel no longer has a finite baryon fraction; the scale shift cannot do this because it multiplies
+x rather than the exponent. At the criterion proposed in Paper I (0.10 dex), the v4 law with its
+published α(ξ) fails on this sample (we did not re-optimise α).
+
+X-COP out to r₂₀₀.
+
+Ettori et al. (2019, Table 2) give f_(gas) and M_(HSE) at r₅₀₀ and r₂₀₀ for 12 clusters. After
+adding stars (Kravtsov scaling, φ = 1) the ratio f_(bar)(r₂₀₀)/f_(bar)(r₅₀₀) is observed to be 1.03
+(median); the scale shift with p = 0.5 predicts 0.98 (all 12) or 0.97 (the nine clusters left after
+excluding the mergers A2319, A3266 and ZW1215), against 0.97 for the v4 law (rms of ln [obs/pred
+ratio] 0.157 against 0.120 for the new term) and 0.42 without a radial term. The mass trend of this
+ratio is  − 0.12 per dex observed and  − 0.11 predicted. The mass-dependent exponent p(ξ) ∝ ξ^(0.37)
+(Sect. 8) predicts  + 0.11 and is disfavoured. At r₅₀₀ itself, the X-COP sample has obs/pred  = 1.17
+(rms 0.19 in ln ) while the Vikhlinin sample gives 0.95 (Sect. 8).
+
+Gain of the radial term.
+
+Without the radial term the kernel overestimates the baryon fraction at r₂₅₀₀ by a factor 3–4
+(obs/pred 0.27, rms_(ln) 1.27 over 12 clusters) and underestimates it at r₂₀₀ by a factor 2.4 (ratio
+0.42 against 1.03). With p = 0.5 the rms falls to 0.225 at r₂₅₀₀ and 0.12 at r₂₀₀. In galaxies
+ξ < ξ_(c), so s = 1 and the term is inactive: the gain belongs to groups and clusters. The test
+shows that the term is necessary and that [Δ/Δ₅₀₀]^(p) describes it with one parameter; it does not
+show that this is the only possible form, and p ≃ 0.5 was calibrated on samples that partially
+overlap (A1795 and A2029 are in both Vikhlinin and X-COP).
+
+Evolution of g^(†)
+
+We parametrise g^(†)(z) = g^(†)(0) E(z)^(α), with α = 1 the prediction g^(†) = cH/2π and α = 0 a
+frozen scale. In clusters α enters both x and ξ, so a change of α moves the exponent as well as the
+transition.
+
+Clusters: measured gas fractions
+
+Allen et al. (2008, 42 clusters, cumulative f_(gas)(r₂₅₀₀)) and Mantz et al. (2014, 40 clusters,
+shell f_(gas)) are fitted with p = 0.5, c₅₀₀ = 3 (to convert M₂₅₀₀ to M₅₀₀ for ξ), a stellar
+addition of 9% and a free normalisation. Table 3 shows χ²(α).
+
+  α                         0     0.25    0.50    0.75    1.00    1.25    1.50
+  ---------------------- ------- ------- ------- ------- ------- ------- -------
+  Allen χ² (41 d.o.f.)    126.1   101.6   85.9    75.8    69.4    65.7    64.0
+  Mantz χ² (39 d.o.f.)    165.4   143.1   129.6   121.4   117.0   115.5   116.5
+
+  : χ² against the exponent α in g^(†) ∝ E(z)^(α) (p = 0.5). Allen: best α = 1.50 (edge of the
+  grid), 1σ [1.35, 1.50], 2σ [1.10, 1.50]. Mantz: best 1.25, 1σ [1.05, 1.50], 2σ [0.85, 1.50]. The
+  absolute χ² per degree of freedom (1.7 and 3) shows that the errors do not account for the
+  scatter; only the differences carry information. The two samples share several clusters, so the χ²
+  are not additive.
+
+A frozen g^(†) (α = 0) is rejected with Δχ² = 57 (Allen) and 48 (Mantz) relative to α = 1, and α = 1
+is 5.4 and 1.5 above the respective minima. With p = 0.46 the pattern is the same (χ² = 82.8 and
+134.1 at α = 1). In the earlier version of this test, in which only the kernel argument was frozen
+and ξ still followed H(z), the Allen χ² was 267 against 69; the numbers in Table 3 are the
+consistent version.
+
+Galaxies at z ≃ 1–2
+
+Übler et al. (2017, 135 KMOS^(3D) galaxies) give median properties in three bins (Table 4). We model
+each bin as an exponential disk with the median baryonic mass and effective radius
+(R_(d) = R_(e)/1.678, all baryons in the same disk), compute
+v_(circ)(r)=√(K_(eff) g_(bar) r) with n = 1/2, s = 1 and take its
+maximum, a quantity comparable in definition to the modelled v_(circ, max) of those authors, which
+includes a pressure-support correction.
+
+  Bin        log M_(bar)   R_(e)   v_(obs)   v_(RGD) (α = 1)   v_(RGD) (α = 0)   x_(peak)
+  --------- ------------- ------- --------- ----------------- ----------------- ----------
+  z ≃ 0.9       10.62       4.8      239      215 ( − 10%)      193 ( − 19%)       0.33
+  z ≃ 1.5       10.97       4.9      263      290 ( + 10%)       244 ( − 7%)       0.50
+  z ≃ 2.3       10.89       4.0      260      303 ( + 16%)       239 ( − 8%)       0.43
+
+  : KMOS^(3D) medians (Übler et al. 2017, Table 1; R_(e) in kpc, velocities in km s⁻¹) and RGD
+  predictions for g^(†) ∝ E^(α). Changing n from 0.50 to 0.55 raises v by 2%; enlarging R_(e) by 30%
+  lowers it by 2%.
+
+[]
+
+[]
+
+Left: χ²(α) for the two cluster samples (a) and rms of ln (v_(pred)/v_(obs)) for the three KMOS^(3D)
+bins (b). Right: median circular velocities against redshift.
+
+For g^(†) ∝ H(z) the zero-point shift relative to z = 0 is  − 3.75Δlog v =  − 0.18,  − 0.28,  − 0.38
+dex in log M at fixed velocity for the three bins, a monotonic trend, while the observed offsets
+relative to the local baryonic Tully–Fisher relation are  − 0.44 (at z ≃ 0.9) and  − 0.27 (at
+z ≃ 2.3), non-monotonic. The rms of ln (v_(pred)/v_(obs)) is 0.141 for α = 0, 0.113 (0.25), 0.094
+(0.50), 0.097 (0.75) and 0.121 for α = 1. The galaxies therefore favour α ≃ 0.5–0.75 and the
+clusters α ≳ 1. The two are reconciled only if the high-redshift galaxy systematics (gas masses from
+scaling relations with 0.2 dex error and no atomic gas, pressure-support corrections of 0.1–0.2 dex,
+selection that changes the stellar mass across bins) are of order 10% or more, which they are; with
+three bins we cannot decide whether α depends on system scale. The dark matter fractions inferred in
+z ≃ 2 galaxies are lower than at z = 0 (Übler et al. 2017; Genzel et al. 2017), whereas a larger
+g^(†) at the same baryonic acceleration produces a larger K; this is the same tension seen from
+another side and has not been tested quantitatively here.
+
+Connecting galaxies to clusters: the ξ switch
+
+The radial term cannot be applied to galaxies: in SPARC an exploratory s = (Δ/Δ_(out))^(p), with Δ
+taken from the rotation curve itself, degrades the rms from 0.148 to 0.158, 0.235 and 0.468 dex for
+p = 0.25, 0.5 and 1, and the global fit favours p ≃ 0.09. A switch based on the local density does
+not separate the regimes, because inner cluster radii reach galactic densities; the discriminator
+must be a property of the system. The compactness ξ is such a property: SPARC haloes have
+ξ ≃ 0.004–0.094 (under two halo mass assumptions), the 43 groups ξ = 0.136–0.29, X-COP 0.34–0.54 and
+the Allen/Mantz clusters 0.40–0.85. A step Θ(ξ−ξ_(c)) therefore needs 0.09 ≲ ξ_(c) ≲ 0.14, a bracket
+set by the absence of systems in 0.09 < ξ < 0.136. A saturating switch such as 1 − e^(−ξ/0.052), the
+form inherited from α(ξ) in Paper I, turns the term on partially at galactic ξ and was found
+incompatible with the SPARC residuals in our test.
+
+Because ξ ∝ (M₅₀₀H)^(1/3) the switch predicts a redshift-dependent threshold mass,
+
+  M₅₀₀^(thr) [M_(⊙)]      z = 0        z = 1        z = 2
+  -------------------- ------------ ------------ ------------
+  ξ_(c) = 0.09          4.2 × 10¹²   2.4 × 10¹²   1.4 × 10¹²
+  ξ_(c) = 0.14          1.6 × 10¹³    9 × 10¹²    5.4 × 10¹²
+
+and, for the baryonic Tully–Fisher relation, a zero-point shift Δlog v = 0.25log₁₀E(z) ( + 0.061 dex
+at z = 1,  + 0.118 at z = 2). The step itself is the simplest function that connects the regimes;
+its sharpness is unconstrained.
+
+Comparison with ΛCDM
+
+Table 5 compares the kernel with NFW haloes (Navarro et al. 1997) added to the same baryons, using
+either the concentration–mass relation of Duffy et al. (2008) or a free concentration.
+
+  Regime             Model                         free par.     rms [dex]           AIC        note
+  ------------------ ---------------------------- ----------- --------------- ----------------- ---------------
+  SPARC, 141 gal.    RGD kernel, s = 1                 0           0.142           − 10670      
+  (2736 pts)         NFW + Duffy c(M)                 141          0.087           − 13066      
+                     NFW, c free                      282          0.059           − 14877      
+  SPARC, 175 gal.    RGD kernel                        0           0.148              —         2803 pts
+                     RAR, a₀ = 1.2 × 10⁻¹⁰             0           0.144              —         
+                     Newton                            0           0.518              —         
+  Groups (43)        NFW + Duffy, norm. to M₅₀₀        0           0.089              —         mean  − 0.020
+                     RGD, p = 0.5, stars 9%            0           0.131              —         mean  − 0.118
+                     RGD, p = 0.8, stars 9%            1           0.056              —         mean  − 0.001
+  X-COP, 39 pts      RGD p = 0.5 / fitted            0 / 1     0.021 / 0.016    − 301 /  − 321  Table 2
+                     NFW + Duffy                      13           0.039            − 227       
+
+  : Kernel against ΛCDM haloes. Group numbers predict M(<r₂₅₀₀) from M₅₀₀; the ΛCDM line has no free
+  parameter. With realistic stellar masses (φ = 0.5–0.7 of the Kravtsov relation) the groups prefer
+  p = 0.45–0.54; φ is not measured. In the X-COP rows the observed baryon fraction is the scaling
+  relation of Paper I, not a measured profile.
+
+ΛCDM fits SPARC rotation curves better (0.087 or 0.059 against 0.142 dex), at the cost of one or two
+free parameters per galaxy; the kernel has none, and equals the RAR in quality (0.148 against
+0.144). In groups ΛCDM with a c(M) prior and no free parameter is better at p = 0.5 with 9% stars;
+the old-stellar-population value p = 0.8 gives 0.056. In X-COP the radial term wins by AIC with a
+margin of 74 to 94 over NFW + Duffy, which has 12 more parameters, but this is within the
+calibration sample and with the Paper I baryon fraction. A positive offset of  + 0.15 dex appears in
+SPARC galaxies with V_(max) < 70 km s⁻¹ (312 points, rms 0.25), which we find not to depend on
+M_(bar) and interpret as a selection effect of grouping by the observed maximum velocity. We
+therefore describe the kernel as competitive in clusters and parsimonious in galaxies, not as
+superior in fit.
+
+Tensions and tests that did not close
+
+(1) Baryon fraction against mass at r₂₅₀₀.
+
+The kernel predicts f_(bar)(r₂₅₀₀) rising with M₂₅₀₀ by  + 0.35 per dex, against a measured mass
+slope of the observed fraction of  − 0.04 ± 0.09 (Allen) and  − 0.09 ± 0.07 (Mantz). In the
+Vikhlinin sample ln (obs/pred) has a trend of  − 0.31 per dex of M₂₅₀₀ with p = 0.5 (median obs/pred
+0.84, rms_(ln) 0.225 over twelve clusters) and  − 0.35 with p = 0.46 (0.76, 0.29). The effect
+worsens with realistic stellar masses and is independent of the form of n(ξ).
+
+(2) Absolute normalisation.
+
+At r₅₀₀, where p plays no role, obs/pred is 0.95 for Vikhlinin (Chandra) and 1.17 for X-COP
+(XMM-Newton), a  ∼ 20% difference that is larger than the radial effect under test; at r₂₀₀ the
+X-COP value is 1.24. Known cross-calibration differences between the two instruments are of this
+order and were not modelled.
+
+(3) A mass-dependent exponent.
+
+The form p(ξ) = p₀(ξ/0.4)^(q) with q > 0 (bootstrap q = 0.37 [0.31, 0.43], p₀ = 0.46 over Allen and
+Mantz) removes the trend of tension (1) ( − 0.31 →  − 0.06, Fig. 3), but predicts a mass trend of
+f_(bar)(r₂₀₀)/f_(bar)(r₅₀₀) of  + 0.11 against  − 0.12 observed and of the within-cluster r₂₅₀₀/r₅₀₀
+ratio of  − 0.25 against  − 0.07. It is not supported and is discarded as a hypothesis; the simplest
+reading remains constant p ≃ 0.5.
+
+[]
+
+Vikhlinin et al. clusters: obs/pred baryon fraction at r₂₅₀₀ against log M₂₅₀₀ for constant p = 0.5
+(trend  − 0.31 per dex) and for p(ξ) ∝ ξ^(0.37) (trend  − 0.06). Lines are log-linear fits.
+
+(4) Hydrostatic equilibrium and lensing.
+
+All cluster masses but CLASH are hydrostatic. Hydrostatic masses measure g_(obs) without bias if the
+gas is in equilibrium in the potential of Eq. ([eq:K]), but non-thermal pressure (5.9% at r₅₀₀ and
+10.5% at r₂₀₀ in X-COP) and departures from equilibrium were not modelled and the temperature and
+density profiles predicted by the kernel were not computed. A mass-dependent bias of the sign needed
+to close tension (1) would require hydrostatic masses to overestimate the true mass at high mass,
+opposite to the usual expectation from non-thermal pressure. Weighing-the-Giants calibration finds
+M_(L)/M_(X) = 0.96 (+0.06/−0.09) ± 9% (syst.) at r₂₅₀₀, with a mass index β = 0.78 (+0.17/−0.14)
+(assuming M_(L) ∝ M_(X)^(β)), less than 2σ from 1 (Mantz et al. 2016); closing the trend would need
+β ≃ 0.87. For the 12 clusters common to CLASH and Allen, M_(L)/M_(X)(r₂₅₀₀) has median 1.21
+(weighted mean 1.09, scatter 0.35 in ln ), obs/pred is 0.93 with lensing masses and 1.10 with X-ray
+masses (rms_(ln) 0.24 and 0.34). The lensing sample is small, high-mass and noisy, the gas was
+rescaled to the lensing aperture assuming M_(gas) ∝ r^(1.2), and noise in M_(L) enters both axes, so
+the mass trend itself is not informative there. Lensing calibration therefore reduces but does not
+decide the matter.
+
+(5) High-redshift galaxies.
+
+Sect. 5.
+
+Extension to cosmological scales
+
+The kernel applied to linear perturbations
+
+For a top-hat baryonic perturbation δ_(b) of physical radius R,
+g_(bar)=1/2Ω_b(a)H²δ_bR and
+
+    x=(g_(bar))/(g^†)=π Ω_b(a) δ_b R/(c/H).
+
+Over the history of the Universe and for R = 0.1–100 Mpc comoving, x = 10⁻⁸–4 × 10⁻³, always deep in
+the low-acceleration regime. At z = 1100 with δ_(b) = 10⁻⁴, K = 7282, 2303, 729 and 231 for
+R = 0.1, 1, 10, 100 Mpc, whereas mimicking cold dark matter needs K = Ω_(m)/Ω_(b) = 6.1. A toy
+growth equation δ''+(2+dln H/dln a)δ'=3/2Ω_b K(x(δ))δ from
+z = 1100 gives δ(z=0) = 123, 127 and 134 for δ_(i) = 10⁻⁵, 10⁻⁴, 10⁻³ at R = 10 Mpc comoving (it
+scales as 1/R: 1.2 × 10³ at 1 Mpc, 13–15 at 100 Mpc), against 0.0076, 0.076 and 0.76 in ΛCDM. The
+result is nearly independent of the initial amplitude (the force scales as δ^(1/2)), so the
+primordial amplitude A_(s) would no longer control the spectrum and the fluctuations would not be
+linear and Gaussian. The toy neglects photon pressure and baryon–photon coupling before decoupling,
+which would delay growth, but the excess is 10³–10⁵.
+
+Dilemma and damper
+
+If the kernel acts on cosmological perturbations it overshoots; if it acts only on bound systems,
+baryons alone grow by a factor 13 between z = 1100 and today against 760 in ΛCDM (δ = 0.013 instead
+of 0.76 for δ_(i) = 10⁻³) and no galaxy forms, and the CMB acoustic peaks cannot be produced without
+a potential well that does not couple to photons. A damper based on the baryon density contrast,
+
+    K_(eff)=K_c (1-D)+K(x) D, D=expit[mln(ρ_b/ρ_c)/Δ_v], K_c=Ω_m/Ω_b≃6.12,
+
+with Δ_(v) = 30 in ρ_(b)/ρ_(c) (total Δ ≃ 200) and m = 4 leaves bound systems unchanged and gives
+δ(z=0) = 0.7604 for R = 1, 10 and 100 Mpc, identical to ΛCDM within 10⁻⁷ in the growth rate. This
+equality holds by construction, since ρ_(b)/ρ_(c) ≲ 0.1 in the linear regime and D → 0: it is
+consistent but not a test, and K_(c) is a postulate. A hard cap K ≤ K_(c) everywhere is excluded,
+since at r₅₀₀ the kernel already gives K ≃ 7.5 > 6.12 (f_(bar) = 0.133 against the cosmic 0.163); a
+cap would set f_(bar)(r₅₀₀) = 0.163 against the observed  ∼ 0.13. That clusters sit below the cosmic
+baryon fraction without feedback is a qualitative consequence of K > K_(c) in bound systems; we have
+not tested it against a specific measurement of the baryon depletion.
+
+CMB
+
+Reproducing the acoustic peaks requires a perturbation theory with baryon–photon coupling and a
+relativistic completion; kernel-type enhancements of the baryon force do not reproduce the third
+peak and the odd–even peak ratio, and the theories that do (e.g. Skordis & Złośnik 2021) add a field
+that behaves as pressureless matter. We make no claim about the CMB or large-scale structure.
+
+Discussion
+
+What the program claims
+
+1.  In bound systems with symmetric equilibrium the kernel, with λ, A, g^(†) fixed on galaxies and
+    groups, describes the baryon fraction across four orders of magnitude in mass with one radial
+    parameter (p ≃ 0.45–0.5) and one switch (ξ_(c) ≃ 0.09–0.14).
+
+2.  The radial term [Δ/Δ₅₀₀]^(p) replaces the two-parameter exponent modulation, reduces the X-COP
+    rms from 0.037 to 0.016–0.021 dex and, unlike the former, extends to r₂₅₀₀ and to r₂₀₀ on
+    independent data.
+
+3.  g^(†) ∝ H(z) is the preferred evolution in clusters and is not excluded in galaxies at z ≃ 1–2
+    within current systematics.
+
+This is a phenomenological statement of restricted scope, defensible from the data used and not
+derived from a Lagrangian.
+
+What the program does not claim
+
+It does not claim that dark matter does not exist, nor that it replaces dark matter in cosmology:
+the CMB, linear growth and primordial perturbations are untouched, and the damper of
+Eq. ([eq:damper]) reproduces ΛCDM growth by postulate. It does not claim superiority in fit over
+ΛCDM haloes, which fit SPARC and, with the stellar assumption used, the groups better. The tensions
+of Sect. 8 are open.
+
+Comparison with competing approaches
+
+Against MOND (Milgrom 1983) and the RAR (McGaugh et al. 2016) the transition scale evolves as
+cH(z)/2π and the exponent depends on the compactness of the equilibrium; against ΛCDM the kernel is
+a baryon-only prescription with no per-system halo parameters in the tested regimes, but without
+cosmology. Observationally the two differ by the redshift evolution of the transition acceleration
+and by the dependence of the baryon fraction on ξ and radius. Covariant relativistic MOND
+completions (e.g. AeST) address the CMB by adding a field; the kernel does not.
+
+Agenda for falsification
+
+1.  Radial parameter. Resolved gas and lensing profiles (X-COP, eROSITA, XXL) should give
+    p = 0.5 ± 0.1 independent of ξ and mass; |p−0.5| > 0.15 or a significant mass dependence
+    falsifies the scale shift.
+
+2.  Evolution of g^(†). Clusters at z > 0.5 with measured gas fractions (SPT, XMM) and larger
+    samples of z ≃ 1–2 rotation curves should converge on a common α; independent samples preferring
+    α < 0.5 at 2σ in clusters, or α > 1 in galaxies, falsify g^(†) ∝ H(z).
+
+3.  The switch. Systems with 0.09 < ξ < 0.14 must show a transition; galaxies with ξ > 0.14 should
+    show s ≠ 1, and systems with ξ < 0.09 should show none. The threshold masses of Sect. 6 give the
+    redshift dependence.
+
+4.  Equilibrium in the kernel potential. Predict T(r) and n_(gas)(r) for the 12 X-COP and 12
+    Vikhlinin clusters in the potential of Eq. ([eq:K]) and compare with the measured profiles,
+    including non-thermal pressure.
+
+5.  Lensing at low mass. Per-cluster lensing masses (CCCP, LoCuSS, WtG) below M₂₅₀₀ ≃ 2 × 10¹⁴ M_(⊙)
+    to decide the mass trend of Sect. 8; measured M_(*)(<r₂₅₀₀) in groups to fix φ.
+
+6.  Systems not tested here. El Gordo (ξ ≃ 0.73) is an active merger and violates the equilibrium
+    premise; ATLAS-3D/SLUGGS early-type galaxies and DESI rotation curves remain open from Paper I.
+
+7.  Covariant formulation. Without an action the program has no predictions for gravitational waves,
+    the CMB or strong fields.
+
+Conclusions
+
+The kernel of Paper I, extended with a one-parameter radial term, describes bound systems from
+galaxies to clusters better than before; it remains a phenomenological map, not a cosmological
+theory.
+
+Established.
+
+1.  The radial term is necessary: without it the kernel mispredicts the baryon fraction at r₂₅₀₀ by
+    a factor 3–4 and at r₂₀₀ by a factor 2.4.
+
+2.  s = [Δ/Δ₅₀₀]^(p) with p ≃ 0.45–0.5 describes it with one parameter: X-COP rms 0.126 →
+    0.016–0.021 dex (v4 law: 0.037), f_(bar)(r₂₅₀₀)/f_(bar)(r₅₀₀) predicted 1.00 against 0.90
+    observed, f_(bar)(r₂₀₀)/f_(bar)(r₅₀₀) 0.97 against 1.03.
+
+3.  The v4 law w^(−α(ξ)) is adequate for w ≳ 0.7 in X-COP but fails inside r₅₀₀ (n > 1) and does not
+    meet the v4 criterion of 0.10 dex at r₂₅₀₀.
+
+4.  g^(†) ∝ H(z) is preferred by Allen and Mantz gas fractions; a frozen g^(†) costs Δχ² = 57 and
+    48.
+
+5.  A step in ξ at ξ_(c) = 0.09–0.14 connects galaxies, groups and clusters, with redshift-dependent
+    threshold masses (4 × 10¹² to 1.4 × 10¹² M_(⊙) from z = 0 to 2 for ξ_(c) = 0.09).
+
+Not established.
+
+1.  The baryon fraction at r₂₅₀₀ rises with mass more than observed ( − 0.31 per dex in obs/pred);
+    lensing calibration shifts it by  ∼ 1σ.
+
+2.  The absolute normalisation differs by  ∼ 20% between the Chandra and XMM samples (0.95 against
+    1.17 at r₅₀₀).
+
+3.  A mass-dependent p(ξ) ∝ ξ^(0.37) closes the former but predicts the wrong sign of the
+    r₅₀₀ → r₂₀₀ trend, and is discarded.
+
+4.  Median KMOS^(3D) galaxies prefer g^(†) ∝ E^(0.5–0.75) against α ≳ 1 in clusters, within the
+     ∼ 10% systematics of the former.
+
+5.  Applied to linear perturbations the kernel boosts gravity 10²–10³ times; the damper recovers
+    ΛCDM growth only through the postulated plateau K_(c) = Ω_(m)/Ω_(b); no CMB statement is made.
+
+Position relative to ΛCDM.
+
+In clusters the kernel is competitive (X-COP AIC  − 301 to  − 321 against  − 227, in-sample); in
+galaxies it is parsimonious (zero parameters) but fits worse than haloes (0.142 against 0.087 or
+0.059 dex); in groups ΛCDM is better for p = 0.5 with the stellar assumption used; in cosmology the
+kernel makes no competitive claim. The defensible claim is an empirical map of bound systems that
+any covariant theory must reproduce in the weak-field stationary limit.
+
+Data and code availability
+
+All scripts, the transcribed tables and the figure generator are in the public repository
+https://github.com/Maia-KarlosMarden/rgd-kernel (folder v5). SPARC, X-COP, CLASH, Allen, Mantz,
+Vikhlinin, Lovisari, Sun and KMOS^(3D) data are public from the original publications; the
+transcribed tables should be checked against the originals before reuse.
+
+Acknowledgements
+
+The author thanks the teams behind the public datasets used here: SPARC (F. Lelli, S. McGaugh,
+J. Schombert), X-COP (S. Ettori, V. Ghirardini, D. Eckert), CLASH (K. Umetsu et al.), KMOS^(3D)
+(H. Übler et al.), and the authors of the cluster compilations of Allen, Mantz, Vikhlinin, Lovisari,
+Sun, Kravtsov and Gonzalez. No grant funding supported this work. AI assistance: the analysis
+scripts, the numerical cross-checks and the drafting of this manuscript were carried out with the
+assistance of Claude (Anthropic); the scientific choices and the responsibility for the content are
+the author’s.
+
+Reproducibility notes
+
+-   Scripts are run from inside the v5 folder (several use exec(open(…))); v4_vs_v5.py reproduces
+    Table 2, v4_indep.py the independent radial tests, alpha_scan.py Table 3, highz_tf.py Table 4,
+    lcdm_compare.py Table 5, cmb_regime.py and damper_test.py Sect. 9.
+
+-   SPARC Table 2 is not redistributed; set the environment variable SPARC_TABLE2.
+
+-   Mantz fractions are shell values and Allen and Vikhlinin cumulative; Mantz M₂₅₀₀ was validated
+    against the critical-density definition, Vikhlinin M₅₀₀ likewise. Cosmology: flat, H₀ = 70,
+    Ω_(m) = 0.3 throughout except where stated (Vikhlinin: h = 0.71; CLASH: Ω_(m) = 0.27; the
+    differences were not propagated).
+
+-   The X-COP rows labelled “scaling” follow Paper I’s f_(bar) = 1.09f_(gas)(M₅₀₀) with
+    f_(gas) = 0.0708(M₅₀₀/10¹³M_(⊙))^(0.135); the measured-profile test is the Ettori et al. Table 2
+    analysis.
+
+  Allen, S. W., Rapetti, D. A., Schmidt, R. W., et al. 2008, MNRAS, 383, 879
+  Duffy, A. R., Schaye, J., Kay, S. T., & Dalla Vecchia, C. 2008, MNRAS, 390, L64
+  Eckert, D., Ghirardini, V., Ettori, S., et al. 2019, A&A, 621, A40
+  Ettori, S., Ghirardini, V., Eckert, D., et al. 2019, A&A, 621, A39 (arXiv:1805.00034)
+  Genzel, R., Förster Schreiber, N. M., Übler, H., et al. 2017, Nature, 543, 397
+  Ghirardini, V., Eckert, D., Ettori, S., et al. 2019, A&A, 621, A41
+  Gonzalez, A. H., Sivanandam, S., Zabludoff, A. I., & Zaritsky, D. 2013, ApJ, 778, 14 (arXiv:1309.3565)
+  Kravtsov, A. V., Vikhlinin, A. A., & Meshcheryakov, A. V. 2018, Astronomy Letters, 44, 8 (arXiv:1401.7329)
+  Lelli, F., McGaugh, S. S., & Schombert, J. M. 2016, AJ, 152, 157
+  Lovisari, L., Reiprich, T. H., & Schellenberger, G. 2015, A&A, 573, A118
+  Maia, K. 2026, A Cosmological-Background Effective Gravitational Kernel: Unifying disk galaxies, galaxy groups, galaxy clusters, and gravitational lensing under a single effective law, v4 (April 28, 2026)
+  Mantz, A. B., Allen, S. W., Morris, R. G., et al. 2014, MNRAS, 440, 2077
+  Mantz, A. B., Allen, S. W., Morris, R. G., et al. 2016, Cosmology and astrophysics from relaxed galaxy clusters –- IV. Robustly calibrating hydrostatic masses with weak lensing, MNRAS (arXiv:1509.02162)
+  McGaugh, S. S., Lelli, F., & Schombert, J. M. 2016, Phys. Rev. Lett., 117, 201101
+  Milgrom, M. 1983, ApJ, 270, 365
+  Navarro, J. F., Frenk, C. S., & White, S. D. M. 1997, ApJ, 490, 493
+  Skordis, C., & Zło\'snik, T. 2021, Phys. Rev. Lett., 127, 161302
+  Sun, M., Voit, G. M., Donahue, M., et al. 2009, ApJ, 693, 1142
+  Übler, H., Förster Schreiber, N. M., Genzel, R., et al. 2017, ApJ, 842, 121 (arXiv:1703.04321)
+  Umetsu, K., Zitrin, A., Gruen, D., et al. 2016, ApJ, 821, 116 (arXiv:1507.04385)
+  Vikhlinin, A., Kravtsov, A., Forman, W., et al. 2006, ApJ, 640, 691
+
+FIGURE CAPTIONS (figures are in the PDF version)
+
+Figure 1. (a) rms residual by physical radius in the X-COP sample. (b) Predicted and observed fbar(r₂₅₀₀)/fbar(r₅₀₀) in ten Vikhlinin et al. clusters. (c) Same ratio at r₂₀₀/r₅₀₀ in nine X-COP clusters with measured fgas (Ettori et al. 2019). "no radial" denotes n(ξ) at w=1 with s=1.
+
+Figure 2. Left: χ²(α) for the two cluster samples (a) and rms of ln(v_(pred)/v_(obs)) for the three KMOS^(3D) bins (b). Right: median circular velocities against redshift.
+
+Figure 3. Vikhlinin et al. clusters: obs/pred baryon fraction at r₂₅₀₀ against log M₂₅₀₀ for constant p=0.5 (trend -0.31 per dex) and for p(ξ)∝ξ^(0.37) (trend -0.06). Lines are log-linear fits.
+

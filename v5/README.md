@@ -45,3 +45,6 @@ Tables in `allen_data.py`, `mantz_data.py`, `groups_data.py` and the CSV were tr
 should be checked against the originals before reuse. Mantz f_gas are shell values, Allen and Vikhlinin cumulative.
 The X-COP rows in `kernel_scenarios.py` use an f_gas scaling relation (the v4 "paper mode"), not measured profiles;
 the measured-profile test is `xcop200.py`. Stellar masses follow Kravtsov+2018.
+
+## Manuscript
+`paper/` holds the English manuscript (PDF, LaTeX, plain text), the figures and `make_figs.py`.
