@@ -691,6 +691,28 @@ indistinguishable with Kravtsov stellar masses and ΛCDM is better with lower on
 kernel makes no competitive claim. The defensible claim is an empirical map of bound systems that
 any covariant theory must reproduce in the weak-field stationary limit.
 
+Practical value of parsimony.
+
+The model has no per-system free parameter: given the baryonic profile and the equilibrium geometry
+of a system, K_(eff) returns g_(obs) (or the baryon fraction) from five global numbers, λ and g^(†)
+fixed on galaxies and A, p and the switch fixed on groups and clusters, all frozen in the archived
+prescription. Three practical consequences follow, within the accuracy documented above. (i)
+Forecasting without a halo fit. A rotation curve, a baryon fraction at r₂₅₀₀ or the threshold mass
+at which a system leaves the galactic regime can be stated before the data are taken, with an error
+budget (0.14 dex in galaxies,  ∼ 20% in the cluster baryon fraction), whereas an NFW description
+needs one or two free parameters per galaxy (141–282 for the SPARC sample) or one mass per cluster,
+and can absorb a mismatch that the kernel cannot. (ii) Cheap and auditable computation. Each
+prediction is a single root-finding with no sampling, so it can be applied to large surveys or to
+sparse and high-redshift data where halo parameters are unconstrained, and any discrepancy is
+attributable to one of a handful of numbers rather than to a degenerate fit. (iii) Falsifiability.
+The same scarcity of parameters is what exposed the tensions of Sect. 8 and the dispersion of p in
+Sect. 4.3; each further sample either confirms the frozen values or breaks them. Parsimony is a
+virtue only while the accuracy holds: the kernel fits galaxies worse than haloes (0.142 against
+0.087 dex), the amplitude p carries a  ∼ 20% systematic, and it needs a measured baryonic profile as
+input. Its practical role is therefore a first-order, reproducible estimator of dynamical masses in
+bound systems, and a sharp test for competing descriptions, not a replacement of halo fitting where
+precision is required.
+
 Data and code availability
 
 All scripts, the transcribed tables and the figure generator are in the public repository
