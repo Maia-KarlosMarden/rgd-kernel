@@ -197,3 +197,14 @@ by the kernel.
 
 MIT. Attribution required — please cite the paper above if you use this code
 in published work.
+
+---
+
+## Update: v5 (October 2026)
+
+A second paper extends this pipeline: the radial modulation `w^(-α(ξ))` is replaced by a one-parameter scale shift
+`s = [Δ(r)/Δ500]^p` (X-COP 39-point rms 0.037 → 0.016–0.021 dex; works at r2500 where the v4 law diverges), g†(z) is tested
+on Allen and Mantz f_gas, and groups, lensing masses, the high-z BTFR and a cosmological damper are added. Several
+tensions are documented rather than hidden (f_bar–mass trend at r2500, ~20% normalisation offset between samples,
+mild preference of z ≈ 1–2 galaxies for a weaker g†(z) evolution). See [`v5/README.md`](v5/README.md).
+The v4 kernel table above is unchanged and the original pipeline remains in `rgd_pipeline.zip`.
