@@ -326,6 +326,23 @@ freedom (p ≃ 0.03). Before the switch, the four-covariate fit gives bootst
  − 0.01]) that exclude zero, but these are collinear with sample membership and are not robust to
 the switch.
 
+Correlation of p with redshift.
+
+Across the 59 clusters (Vikhlinin, Ettori, Allen; z = 0.02–1.06) the per-system amplitude
+anticorrelates with z: Spearman ρ =  − 0.38 (p = 0.003; bootstrap 95% interval [−0.61,−0.11]),
+hierarchical slope β_(z) =  − 0.104 ± 0.046 per unit z (cluster bootstrap [−0.20,−0.01]) at α = 1,
+and the slope does not change when log M₅₀₀ is added. The correlation is between samples, not within
+one: the low-redshift clusters (Vikhlinin, Ettori; μ = 0.56 ± 0.02 for z < 0.15) have a higher p
+than the Allen clusters (0.51), and inside the Allen sample alone, the only one spanning
+z = 0.06–1.06 with one instrument and one radius, the correlation is absent (ρ =  − 0.19, p = 0.26;
+ρ =  + 0.12 for z > 0.3) and the slope is  − 0.037 ± 0.036 (τ ≃ 0), i.e. |Δp| < 0.07 (2σ) between
+z = 0 and 1. The cluster-only slope depends on α:  − 0.08 to  − 0.13 for 0 ≤ α ≤ 1.5 and
+ − 0.19 ± 0.05 at α = 2 (Allen alone:  − 0.02 to  − 0.05 for α ≤ 1.5,  − 0.11 ± 0.04 at α = 2),
+vanishing only for no value of α in the cluster-only fit. We therefore find no evidence for an
+evolution of p with redshift within one sample; the cross-sample trend is equally an offset between
+instruments, radii and mass-estimation methods (Sect. 4.3), and a joint (α,β_(z)) determination
+needs a single homogeneous sample over a wider redshift range.
+
 Robustness and limits.
 
 τ stays within 0.12–0.15 when the errors are halved or multiplied by 1.5, when the three X-COP
@@ -810,9 +827,9 @@ Reproducibility notes
 
 -   Referee-type checks: ref31.py (bootstrap, frozen-p tables, best-fit p per sample; Sect. 4.3),
     ref32.py (hydrostatic bias; Sect. 8), ref34.py (switch width and location; Table 9), ref41.py,
-    ref41b.py, ref41c.py (hierarchical model of p; Sect. 4.4). predict_frozen.py implements the
-    frozen prescription (p = 0.5, ξ_(c) = 0.115, m = 4, φ = 0.7, λ, A, g^(†) = cH/2π) for new
-    samples.
+    ref41b.py, ref41c.py, ref42.py (hierarchical model of p and its correlation with z; Sect. 4.4).
+    predict_frozen.py implements the frozen prescription (p = 0.5, ξ_(c) = 0.115, m = 4, φ = 0.7, λ,
+    A, g^(†) = cH/2π) for new samples.
 
 -   SPARC Table 2 is not redistributed; set the environment variable SPARC_TABLE2.
 
