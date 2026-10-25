@@ -1,0 +1,23 @@
+P_det   boost(r=0.98)  boost(r=0.80)
+ 1.00   1.00          1.00
+ 0.90   1.08          1.06
+ 0.70   1.21          1.17
+ 0.50   1.36          1.28
+ 0.30   1.56          1.44
+ 0.20   1.71          1.55
+ 0.10   1.96          1.73
+ 0.05   2.20          1.90
+ 0.02   2.52          2.13
+ 0.01   2.77          2.30
+
+RGD_gas/eFEDS_gas ratio per bin and P_det that reconciles it
+  M=  3.0e13  ratio 2.58   P_det(r=.98)=0.017   P_det(r=.80)=0.0031
+  M=  5.6e13  ratio 1.62   P_det(r=.98)=0.254   P_det(r=.80)=0.1524
+  M=  8.4e13  ratio 1.51   P_det(r=.98)=0.340   P_det(r=.80)=0.2297
+  M= 13.5e13  ratio 1.36   P_det(r=.98)=0.496   P_det(r=.80)=0.3890
+  M= 13.3e13  ratio 1.83   P_det(r=.98)=0.142   P_det(r=.80)=0.0671
+  M= 22.5e13  ratio 1.96   P_det(r=.98)=0.099   P_det(r=.80)=0.0398
+  M= 25.1e13  ratio 1.64   P_det(r=.98)=0.240   P_det(r=.80)=0.1412
+  M= 27.7e13  ratio 1.48   P_det(r=.98)=0.367   P_det(r=.80)=0.2562
+
+RGD vs HSC-XXL (ratio 0.97-1.06): reconciling boost ~1 => P_det ~ 1 (no selection excess needed).
