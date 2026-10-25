@@ -1,0 +1,17 @@
+N=68 Ettori:9 Groups-L:20 Groups-S:23 HSC-XXL:6 Vikhlinin:10   xi range 0.137..0.595
+
+model  k  tau    nll     AIC    LOSO   params
+N0    0  0.216    -1.0     0.0    -3.0  []
+N1    1  0.191    -7.9   -11.8    -1.4  [0.356]
+N2    1  0.369    31.2    66.4   -41.7  [0.572]
+N3    2  0.140   -23.0   -40.0    11.3  [0.453 0.507]
+N4    3  0.129   -26.4   -44.9    12.3  [ 5.     0.147 -0.061]
+
+N0 archived: median f_obs/f_pred by sample
+  Ettori     N= 9  1.180  (rms ln 0.054)
+  Groups-L   N=20  1.233  (rms ln 0.223)
+  Groups-S   N=23  1.162  (rms ln 0.186)
+  HSC-XXL    N= 6  0.960  (rms ln 0.019)
+  Vikhlinin  N=10  0.949  (rms ln 0.121)
+
+predicted F(xi) archived: xi=0.03: f=0.024, xi=0.06: f=0.041, xi=0.10: f=0.059, xi=0.20: f=0.089, xi=0.30: f=0.108, xi=0.50: f=0.137
