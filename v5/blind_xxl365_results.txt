@@ -1,0 +1,40 @@
+rows parsed: 302
+usable: 213  C1: 162
+
+-- C1, archived  {} : N=162 (pred<=0 for 0)  overall median +0.163 dex (x1.46)
+   1e+13-3e+13  N=  7  median +0.241 ± 0.106 dex  (x1.74)  rms 0.206
+   3e+13-1e+14  N= 60  median +0.065 ± 0.049 dex  (x1.16)  rms 0.223
+   1e+14-3e+14  N= 81  median +0.164 ± 0.021 dex  (x1.46)  rms 0.162
+   3e+14-1e+15  N= 14  median +0.317 ± 0.060 dex  (x2.07)  rms 0.152
+
+-- C1+C2, archived  {} : N=213 (pred<=0 for 0)  overall median +0.232 dex (x1.71)
+   1e+13-3e+13  N=  7  median +0.241 ± 0.106 dex  (x1.74)  rms 0.206
+   3e+13-1e+14  N= 66  median +0.140 ± 0.050 dex  (x1.38)  rms 0.405
+   1e+14-3e+14  N= 93  median +0.189 ± 0.027 dex  (x1.55)  rms 0.291
+   3e+14-1e+15  N= 38  median +0.555 ± 0.047 dex  (x3.59)  rms 0.358
+
+-- C1, p=0.8  {'p': 0.8} : N=162 (pred<=0 for 0)  overall median -0.009 dex (x0.98)
+   1e+13-3e+13  N=  7  median +0.321 ± 0.098 dex  (x2.09)  rms 0.194
+   3e+13-1e+14  N= 60  median +0.026 ± 0.036 dex  (x1.06)  rms 0.201
+   1e+14-3e+14  N= 81  median -0.020 ± 0.012 dex  (x0.96)  rms 0.147
+   3e+14-1e+15  N= 14  median -0.069 ± 0.114 dex  (x0.85)  rms 0.290
+
+-- C1, HSC-XXL stars  {'stars': 'xxl'} : N=162 (pred<=0 for 0)  overall median +0.199 dex (x1.58)
+   1e+13-3e+13  N=  7  median +0.405 ± 0.097 dex  (x2.54)  rms 0.186
+   3e+13-1e+14  N= 60  median +0.140 ± 0.047 dex  (x1.38)  rms 0.219
+   1e+14-3e+14  N= 81  median +0.173 ± 0.020 dex  (x1.49)  rms 0.159
+   3e+14-1e+15  N= 14  median +0.304 ± 0.065 dex  (x2.01)  rms 0.160
+
+-- C1 without F flag, archived  {} : N=158 (pred<=0 for 0)  overall median +0.159 dex (x1.44)
+   1e+13-3e+13  N=  6  median +0.237 ± 0.129 dex  (x1.73)  rms 0.222
+   3e+13-1e+14  N= 59  median +0.064 ± 0.050 dex  (x1.16)  rms 0.222
+   1e+14-3e+14  N= 79  median +0.159 ± 0.019 dex  (x1.44)  rms 0.163
+   3e+14-1e+15  N= 14  median +0.317 ± 0.060 dex  (x2.07)  rms 0.152
+
+POST-HOC concentration sensitivity:
+c x0.7  p=0.5  N=162  median +0.117 dex (x1.31)
+c x0.7  p=0.8  N=162  median -0.043 dex (x0.91)
+c x1.0  p=0.5  N=162  median +0.163 dex (x1.46)
+c x1.0  p=0.8  N=162  median -0.009 dex (x0.98)
+c x1.3  p=0.5  N=162  median +0.192 dex (x1.56)
+c x1.3  p=0.8  N=162  median +0.012 dex (x1.03)
