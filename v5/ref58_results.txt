@@ -1,0 +1,24 @@
+points: 331  r500 points: 62
+
+sd_delta   | v5: p_best ± se   lnL   | v6: q_best ± se   lnL   | dAIC(v6-v5) | lnL gain
+0.01       | 0.567 ± 0.010     -58.3 | 1.151 ± 0.017     -24.3 |    -67.9 | +34.0
+0.1        | 0.595 ± 0.014     -14.1 | 1.232 ± 0.024      32.8 |    -93.7 | +46.9
+0.2        | 0.610 ± 0.015     -12.0 | 1.259 ± 0.026      35.7 |    -95.5 | +47.8
+0.3        | 0.614 ± 0.015     -13.0 | 1.266 ± 0.026      34.9 |    -95.8 | +47.9
+free       | 0.618 ± 0.016     -28.7 | 1.271 ± 0.026      19.3 |    -96.0 | +48.0
+
+at sd=0.20: lnL(v5,p=0.50)=-35.7  lnL(v6,q=1.00)=-6.9  | best: v5 -12.0  v6 35.7
+
+LOSO (theta & tau fit on the other samples, held-out offset from prior sd=0.20): held-out log score
+sample              v5(p_chosen)   v6(q_chosen)   v5(p=.5)  v6(q=1)   chosen p,q
+Allen                    9.1           14.2           4.7       6.8   0.60, 1.25
+Ettori r200             -0.4            0.7           1.5       4.4   0.62, 1.27
+Groups-L(XMM)          -11.6           -0.9          -7.7      -1.4   0.62, 1.27
+Groups-S(Chandra)      -23.7            4.2         -29.0      -8.9   0.60, 1.25
+Vikhlinin                2.5            3.6           4.1       7.1   0.62, 1.30
+XXL C1                  -6.3            2.7         -19.0     -18.4   0.57, 1.20
+TOTAL                  -30.5           24.5         -45.4     -10.3
+
+posterior offsets delta_s (ln f) at sd=0.20, best theta (positive = observed above prediction):
+  v5 (par 0.600, tau 0.198): Allen +0.25; Ettori +0.06; Groups-L +0.26; Groups-S +0.11; Vikhlinin +0.03; XXL -0.14
+  v6 (par 1.250, tau 0.151): Allen +0.30; Ettori +0.03; Groups-L +0.26; Groups-S +0.16; Vikhlinin +0.07; XXL -0.12
