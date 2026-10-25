@@ -1,0 +1,41 @@
+N systems with p_i: 254  by sample: {'Allen': 37, 'Ettori r200': 12, 'Groups-L(XMM)': 20, 'Groups-S(Chandra)': 23, 'Vikhlinin': 10, 'XXL C1': 152}
+
+model                k   tau    AIC   dAIC  LOSO_score(sum)  dLOSO  | coefficients
+constant             0  0.175   -368.8   +0.0     -120.8        +0.0 | mu=+0.602±0.014
+logM                 1  0.170   -370.4   -1.6     -159.0       -38.2 | mu=+0.593±0.015; logM=+0.059±0.030
+z                    1  0.158   -392.6  -23.7     -116.4        +4.4 | mu=+0.611±0.013; z=+0.313±0.059
+ldd                  1  0.164   -393.5  -24.6     -215.8       -95.0 | mu=+0.627±0.015; ldd=-0.234±0.045
+log xi               1  0.169   -371.7   -2.9     -158.8       -38.0 | mu=+0.592±0.014; lxi=+0.196±0.087
+instrument           1  0.167   -391.7  -22.9     -208.0       -87.3 | mu=+0.519±0.021; xmm=+0.140±0.028
+logM+z               2  0.158   -390.7  -21.9     -184.0       -63.2 | mu=+0.609±0.014; logM=+0.011±0.030; z=+0.305±0.063
+logM+ldd             2  0.161   -393.6  -24.8     -311.6      -190.8 | mu=+0.620±0.015; logM=+0.043±0.029; ldd=-0.226±0.044
+log xi+ldd           2  0.161   -394.7  -25.9     -301.1      -180.3 | mu=+0.619±0.015; lxi=+0.152±0.083; ldd=-0.224±0.044
+logM+z+ldd           3  0.148   -413.9  -45.0     -369.4      -248.6 | mu=+0.635±0.015; logM=-0.003±0.029; z=+0.295±0.061; ldd=-0.213±0.042
+logM+ldd+instr       3  0.157   -403.2  -34.4     -472.3      -351.6 | mu=+0.530±0.030; logM=+0.086±0.031; ldd=-0.103±0.056; xmm=+0.120±0.035
+log xi+ldd+instr     3  0.155   -405.2  -36.4     -470.4      -349.7 | mu=+0.527±0.029; lxi=+0.276±0.088; ldd=-0.097±0.055; xmm=+0.124±0.035
+
+Train on non-XXL, predict XXL (162): mean log score per system
+  constant             -0.835   pred mean p=0.50  (XXL median p_i=0.75)
+  logM                 -0.900   pred mean p=0.47  (XXL median p_i=0.75)
+  z                    -0.786   pred mean p=0.51  (XXL median p_i=0.75)
+  ldd                  -0.760   pred mean p=0.53  (XXL median p_i=0.75)
+  log xi               -0.881   pred mean p=0.48  (XXL median p_i=0.75)
+  instrument           -1.121   pred mean p=0.44  (XXL median p_i=0.75)
+  logM+z               -1.059   pred mean p=0.44  (XXL median p_i=0.75)
+  logM+ldd             -0.847   pred mean p=0.49  (XXL median p_i=0.75)
+  log xi+ldd           -0.826   pred mean p=0.50  (XXL median p_i=0.75)
+  logM+z+ldd           -0.990   pred mean p=0.46  (XXL median p_i=0.75)
+  logM+ldd+instr       -1.212   pred mean p=0.45  (XXL median p_i=0.75)
+  log xi+ldd+instr     -1.209   pred mean p=0.45  (XXL median p_i=0.75)
+
+XXL-only (N=152, single instrument/method): hierarchical fits
+  constant                   tau=0.085 AIC=-200.9 | +0.750±0.016
+  ldd                        tau=0.061 AIC=-205.6 | +0.759±0.015; -0.283±0.094
+  logM                       tau=0.068 AIC=-204.6 | +0.775±0.018; -0.154±0.059
+  z                          tau=0.084 AIC=-199.0 | +0.747±0.018; +0.031±0.086
+  ldd+logM                   tau=0.061 AIC=-203.6 | +0.760±0.023; -0.269±0.252; -0.009±0.153
+  ldd+z                      tau=0.060 AIC=-203.7 | +0.757±0.017; -0.281±0.094; +0.022±0.079
+  ldd+logM+z                 tau=0.030 AIC=-209.0 | +0.934±0.061; +4.805±1.709; -3.146±1.045; +1.669±0.546
+  richness|M                 tau=0.072 AIC=-204.4 | +0.754±0.015; -0.112±0.045
+  ldd+richness|M             tau=0.053 AIC=-207.4 | +0.762±0.015; -0.240±0.094; -0.086±0.043
+  spread of ldd within XXL: -0.63..0.35 (log10); corr(ldd,logM)=0.93 corr(ldd,z)=0.08
