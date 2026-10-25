@@ -1,0 +1,59 @@
+
+== ALL, archived Theta  (N=269)  tau5=0.283 tau6=0.252 | rms ln: v5 0.337  v6 0.320
+   DeltaLS(v6-v5)=+18.8  [95% boot +10.7, +27.5]   P(DeltaLS>0)=1.000   win fraction v6=0.59   equal-sample-weight mean per-system dLS=+0.180
+   sample             N   rms5   rms6   mean r5  mean r6   dLS/system
+   Allen               42  0.201  0.214  -0.068   -0.093    +0.028
+   Ettori r200         12  0.300  0.263  +0.144   +0.138    +0.129
+   Groups-L(XMM)       20  0.342  0.254  +0.146   +0.104    +0.313
+   Groups-S(Chandra)   23  0.398  0.272  -0.124   -0.089    +0.475
+   Vikhlinin           10  0.233  0.193  -0.161   -0.166    +0.149
+   XXL C1             162  0.363  0.364  -0.246   -0.246    -0.016
+
+== WITHOUT XXL (Vikhlinin, Ettori, Allen, groups)  (N=107)  tau5=0.274 tau6=0.206 | rms ln: v5 0.295  v6 0.239
+   DeltaLS(v6-v5)=+23.8  [95% boot +16.5, +30.3]   P(DeltaLS>0)=1.000   win fraction v6=0.52   equal-sample-weight mean per-system dLS=+0.235
+   sample             N   rms5   rms6   mean r5  mean r6   dLS/system
+   Allen               42  0.201  0.214  -0.068   -0.093    +0.083
+   Ettori r200         12  0.300  0.263  +0.144   +0.138    +0.109
+   Groups-L(XMM)       20  0.342  0.254  +0.146   +0.104    +0.315
+   Groups-S(Chandra)   23  0.398  0.272  -0.124   -0.089    +0.464
+   Vikhlinin           10  0.233  0.193  -0.161   -0.166    +0.205
+
+== XXL C1 only  (N=162)  tau5=0.291 tau6=0.294 | rms ln: v5 0.363  v6 0.364
+   DeltaLS(v6-v5)=-0.8  [95% boot -2.1, +0.6]   P(DeltaLS>0)=0.132   win fraction v6=0.64   equal-sample-weight mean per-system dLS=-0.005
+   sample             N   rms5   rms6   mean r5  mean r6   dLS/system
+   XXL C1             162  0.363  0.364  -0.246   -0.246    -0.005
+
+== ALL, Theta=1  (N=269)  tau5=0.289 tau6=0.258 | rms ln: v5 0.341  v6 0.323
+   DeltaLS(v6-v5)=+19.1  [95% boot +9.9, +28.8]   P(DeltaLS>0)=1.000   win fraction v6=0.60   equal-sample-weight mean per-system dLS=+0.177
+   sample             N   rms5   rms6   mean r5  mean r6   dLS/system
+   Allen               42  0.201  0.213  -0.064   -0.089    +0.031
+   Ettori r200         12  0.298  0.262  +0.141   +0.135    +0.129
+   Groups-L(XMM)       20  0.422  0.335  +0.259   +0.213    +0.318
+   Groups-S(Chandra)   23  0.395  0.275  -0.051   -0.012    +0.443
+   Vikhlinin           10  0.228  0.187  -0.148   -0.153    +0.150
+   XXL C1             162  0.358  0.360  -0.242   -0.241    -0.011
+
+== ALL, XXL concentration x0.7  (N=269)  tau5=0.244 tau6=0.223 | rms ln: v5 0.299  v6 0.295
+   DeltaLS(v6-v5)=+10.4  [95% boot -1.2, +21.7]   P(DeltaLS>0)=0.961   win fraction v6=0.35   equal-sample-weight mean per-system dLS=+0.197
+   sample             N   rms5   rms6   mean r5  mean r6   dLS/system
+   Allen               42  0.201  0.214  -0.068   -0.093    +0.002
+   Ettori r200         12  0.300  0.263  +0.144   +0.138    +0.142
+   Groups-L(XMM)       20  0.342  0.254  +0.146   +0.104    +0.378
+   Groups-S(Chandra)   23  0.398  0.272  -0.124   -0.089    +0.593
+   Vikhlinin           10  0.233  0.193  -0.161   -0.166    +0.154
+   XXL C1             162  0.302  0.327  -0.179   -0.206    -0.087
+
+== ALL, XXL concentration x1.3  (N=269)  tau5=0.317 tau6=0.274 | rms ln: v5 0.369  v6 0.339
+   DeltaLS(v6-v5)=+26.6  [95% boot +20.6, +33.4]   P(DeltaLS>0)=1.000   win fraction v6=0.71   equal-sample-weight mean per-system dLS=+0.178
+   sample             N   rms5   rms6   mean r5  mean r6   dLS/system
+   Allen               42  0.201  0.214  -0.068   -0.093    +0.054
+   Ettori r200         12  0.300  0.263  +0.144   +0.138    +0.129
+   Groups-L(XMM)       20  0.342  0.254  +0.146   +0.104    +0.281
+   Groups-S(Chandra)   23  0.398  0.272  -0.124   -0.089    +0.410
+   Vikhlinin           10  0.233  0.193  -0.161   -0.166    +0.156
+   XXL C1             162  0.410  0.391  -0.292   -0.273    +0.038
+
+1-parameter versions on ALL: v5 best p=0.569 nll=61.4  AIC=126.7 | v6 best q=1.154 nll=29.6 AIC=63.2 | dAIC(v6-v5)=-63.5
+
+1-param WITHOUT XXL                v5 p=0.529 AIC=43.0 | v6 q=1.078 AIC=-16.9 | dAIC(v6-v5)=-59.9
+1-param XXL only                   v5 p=0.731 AIC=-18.1 | v6 q=1.483 AIC=-29.8 | dAIC(v6-v5)=-11.7
