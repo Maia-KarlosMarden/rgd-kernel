@@ -1,0 +1,17 @@
+identity g_dag*sqrt(dd) / (c*Omega/(2pi sqrt250)) on 41 XXL systems: mean 1.0115, spread 0.0052 (Omega^2=GM/r^3, uses E(z) with Om=0.3 for g_dag and Om=0.28 for R500)
+model   k  tau    nll    AIC    LOSO   params
+q_gr    1  0.234    46.5   96.9   -79.2  [1.125]
+gr1     0  0.258    68.4  138.9   -73.4  []
+grc     2  0.231    41.1   88.3  -119.0  [1.05  0.059]
+grx     2  0.225    32.7   71.4  -216.2  [1.092 0.08 ]
+q_dd    1  0.275    74.3  152.6  -106.3  [0.555]
+dr      2  0.221    37.8   81.5   -76.6  [1.666 2.204]
+drx     3  0.210    21.6   51.2  -205.4  [1.674 2.255 0.083]
+
+per-sample LOSO log score: sample |     q_gr      gr1      grc      grx     q_dd       dr      drx
+Allen             |     -2.0      0.4     -1.6      4.4     -4.8      1.7      7.1
+Ettori r200       |      0.7     -1.0    -17.4     -6.2     -1.4      1.7     -5.7
+Groups-L(XMM)     |    -24.4     -7.7    -26.0    -49.7    -31.7    -19.1    -42.6
+Groups-S(Chandra) |     -4.6     -2.9     -5.2     -3.7    -15.9     -5.4     -3.0
+Vikhlinin         |      3.5      1.3      3.6      3.8      1.2      3.4      3.6
+XXL C1            |    -52.4    -63.6    -72.4   -164.8    -53.8    -58.9   -164.8

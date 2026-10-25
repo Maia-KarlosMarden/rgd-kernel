@@ -1,0 +1,17 @@
+NFW c200=3.5 (R500=0.65*R200 approx): effective p=(2-a)/(3-a)
+   r2500  x=1.05 a=1.276 p_eff=0.420
+   r500   x=2.27 a=0.981 p_eff=0.505
+   r200   x=3.50 a=0.833 p_eff=0.539
+
+N=254  p_pred range 0.41..0.56  median 0.48 ; observed p_i median 0.61
+  Allen              N= 37  p_i median 0.51   p_pred median 0.43
+  Ettori r200        N= 12  p_i median 0.63   p_pred median 0.55
+  Groups-L(XMM)      N= 20  p_i median 0.37   p_pred median 0.47
+  Groups-S(Chandra)  N= 23  p_i median 0.55   p_pred median 0.47
+  Vikhlinin          N= 10  p_i median 0.57   p_pred median 0.44
+  XXL C1             N=152  p_i median 0.75   p_pred median 0.50
+
+model      k  tau    nll     AIC    LOSO     params
+const     1  0.175    47.0    98.0   -120.8   [0.602]
+formula   0  0.207    80.4   162.7   -103.7   []
+lin       2  0.167    35.3    76.7   -121.7   [-0.276  1.88 ]

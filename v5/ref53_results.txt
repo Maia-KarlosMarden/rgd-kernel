@@ -1,0 +1,12 @@
+N points 13
+none            rms 0.126 dex
+dd^0.5 (arch.)  rms 0.021 dex
+dd^0.45          rms 0.016 dex
+dd^0.60          rms 0.044 dex
+dd^0.80          rms 0.100 dex
+(g/g500)^0.250   rms 0.095 dex
+(g/g500)^0.500   rms 0.064 dex
+(g/g500)^0.750   rms 0.032 dex
+(g/g500)^1.000   rms 0.002 dex
+(g/g500)^1.125   rms 0.016 dex
+observed fb mean by column: [0.133 0.133 0.133]   gr by column: [2.06 1.2  0.82] dd: [5.1  1.5  0.68]
