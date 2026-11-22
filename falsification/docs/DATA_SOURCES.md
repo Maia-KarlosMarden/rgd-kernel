@@ -14,3 +14,10 @@
 outputs of `analyze_radiative.py` / `fit_signed_exponents.py`, shipped so the later scripts run
 without recomputing them. Cluster/group tables are transcribed by hand; the transcription of
 Sun+2009 Table 3 was checked row by row against the arXiv HTML version.
+
+## Data-integrity note (2026-11-22)
+A file `SPARC_Table1.txt` (190 rows, 130 matching SPARC names) was removed from `code/data/`: it does
+not agree with the official SPARC table `SPARC_Lelli2016c.mrt` (95 of the 130 common galaxies differ
+by more than 1 % in L[3.6]; e.g. NGC 2403 has L[3.6] = 6.27 there against 10.041 in the MRT).
+No script in this folder reads it. Galaxy metadata (distance, inclination, L[3.6], Vflat, quality)
+come only from `SPARC_Lelli2016c.mrt`; rotation-curve points come from `SPARC_Table2.txt`.
