@@ -1,0 +1,19 @@
+== (1) Controle de circularidade: mocks com bárions comuns, NENHUMA física nova ==
+  f_bar(M) de Sun+2009 (escala usada no artigo)    r(n_emp, ξ) = 0.977   A ajustado = 0.4093   dispersão em n = 0.017
+  f_bar constante = 0.13                           r(n_emp, ξ) = 0.983   A ajustado = 0.3944   dispersão em n = 0.039
+  artigo v4:                                       r = 0.97          A = 0.4068
+
+== (2) X-COP: variável do hospedeiro só com bárions ==
+  R_b/R500 = 0.88–1.19;  ξ_b = 0.058–0.093;  ξ_v4 = 0.39–0.54;  n_emp(R_b) = 0.549–0.769
+  corr(n_emp, ξ_b) = -0.190   corr(n_emp, ξ_v4) = +0.363   corr(n_emp, f_bar) = -0.856
+  A_b (v5, ξ bariônico) = 2.244;   A (v4 reajustado neste raio) = 0.359
+  LOO RMS em g_obs(R_b):  v5_xi_bar 0.062 dex  v4_xi_total 0.049 dex  nulo_amostra_justa 0.066 dex  galactico_n05 0.169 dex
+
+== (3a) SPARC, previsão sem reajuste ==
+  ξ_b das galáxias = 0.0006–0.0103  →  n = 0.501–0.523
+  RMS/gal: n=1/2 0.2135 dex | v5 n(ξ_b) 0.2142 dex  (Δ = +0.0007)
+  galáxia mais massiva: v² ∝ R^(2n−1) = R^+0.046 no regime profundo (BTFR exige 0)
+
+== (3b) BCGs CLASH com n do hospedeiro (sem lei radial) ==
+  ξ_b(hospedeiro) 0.066–0.119 → n 0.647–0.766
+  log(g_obs/g_b): observado 0.624  previsto 0.262  RMS 0.388 dex;  n necessário mediano 2.51

@@ -1,0 +1,42 @@
+corr(logG, log g_b + log r) = 1.0
+
+== CV 5-fold por galáxia, seed 42 (mesmos folds do pacote) ==
+  CTRL só log r                0.202420  ganho +2.91%
+  CTRL log g_b + log r         0.203905  ganho +2.20%
+  só G_proxy                   0.203919  ganho +2.19%
+  +++ (C,G,L)                  0.204158  ganho +2.08%
+  livre (C,G,L)                0.204577  ganho +1.88%
+  nested                       0.205682  ganho +1.35%
+  CTRL galáxia (L,SBd,Rd)      0.205958  ganho +1.21%
+  RAR                          0.208489  ganho +0.00%
+  CTRL só log g_b              0.209340  ganho -0.41%
+  só L_proxy                   0.209362  ganho -0.42%
+  só C                         0.209418  ganho -0.45%
+  RAR_forma                    0.209569  ganho -0.52%
+  padrões escolhidos no aninhado: ['-+-', '++-', '++-', 'free', '+++']
+
+== Bootstrap por galáxia (ganho % sobre RAR, 4000 reamostragens) ==
+  livre (C,G,L)            mediana +1.73%  IC95 [-1.51, +4.52]  P(>0)=0.857  galáxias que melhoram 79/155
+  +++ (C,G,L)              mediana +2.03%  IC95 [-1.01, +4.74]  P(>0)=0.909  galáxias que melhoram 75/155
+  nested                   mediana +1.31%  IC95 [-2.00, +4.26]  P(>0)=0.782  galáxias que melhoram 76/155
+  só G_proxy               mediana +2.14%  IC95 [-0.76, +4.86]  P(>0)=0.921  galáxias que melhoram 77/155
+  CTRL log g_b + log r     mediana +2.15%  IC95 [-1.29, +5.15]  P(>0)=0.887  galáxias que melhoram 74/155
+  CTRL só log g_b          mediana -0.39%  IC95 [-1.43, +0.62]  P(>0)=0.224  galáxias que melhoram 76/155
+  RAR_forma                mediana -0.51%  IC95 [-1.22, +0.17]  P(>0)=0.063  galáxias que melhoram 66/155
+
+== 20 partições diferentes (ganho % sobre RAR) ==
+  RAR                      média +0.00%  dp 0.00  [+0.00, +0.00]
+  livre (C,G,L)            média +1.91%  dp 0.44  [+1.18, +2.79]
+  +++ (C,G,L)              média +1.81%  dp 0.31  [+1.12, +2.28]
+  só G_proxy               média +1.90%  dp 0.29  [+1.29, +2.32]
+  CTRL log g_b + log r     média +2.20%  dp 0.31  [+1.49, +2.56]
+  CTRL só log g_b          média -0.18%  dp 0.23  [-0.73, +0.16]
+  RAR_forma                média -0.25%  dp 0.22  [-0.80, +0.06]
+
+== Embaralhamento de L (blocos de 4 por M_b e R_d, 60 perm.) ==
+  real +1.88%  permutado +1.89% ± 0.51  p=0.410
+
+== Sensibilidade a M/L (seed 42) ==
+  Υd=0.4 Υb=0.6: RAR 0.211108 | livre (C,G,L) +2.54% | só G_proxy +3.15% | CTRL log g_b + log r +2.63% | RAR_forma +0.62%
+  Υd=0.5 Υb=0.7: RAR 0.208489 | livre (C,G,L) +1.88% | só G_proxy +2.19% | CTRL log g_b + log r +2.20% | RAR_forma -0.52%
+  Υd=0.6 Υb=0.8: RAR 0.209032 | livre (C,G,L) +1.90% | só G_proxy +1.38% | CTRL log g_b + log r +2.31% | RAR_forma -0.67%

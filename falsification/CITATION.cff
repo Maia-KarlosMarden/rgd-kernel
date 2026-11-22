@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Mock controls show that host-dependent gravitational kernels reduce to the baryon fraction: a falsification of the RGD kernel from galaxies to clusters"
+authors:
+  - family-names: Maia
+    given-names: Karlos
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/Maia-KarlosMarden/rgd-kernel"
+keywords: [modified gravity, radial acceleration relation, galaxy clusters, falsification, SPARC, X-COP]

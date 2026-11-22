@@ -1,0 +1,7 @@
+== Grupo B: subamostras ==
+  distâncias precisas (fD ≥ 2)                 gal  69  Δχ²(B2−RAR)   -34.9  sem top-10   +17.6  melhoram  35  n +0.080 [0.058, 0.1, 0.093, 0.071, 0.077]
+  distâncias por fluxo de Hubble (fD = 1)      gal  90  Δχ²(B2−RAR)   +18.7  sem top-10   +23.3  melhoram  49  n +0.058 [0.07, 0.009, 0.053, 0.099, 0.06]
+  qualidade Q = 1                              gal  99  Δχ²(B2−RAR)    +2.1  sem top-10    +8.1  melhoram  52  n -0.003 [-0.002, -0.026, -0.017, 0.037, -0.006]
+  sem os 2 pontos mais internos                gal 159  Δχ²(B2−RAR)   -19.8  sem top-10   +35.4  melhoram  82  n +0.078 [0.081, 0.115, 0.066, 0.064, 0.064]
+  metade de menor L (anãs)                     gal  80  Δχ²(B2−RAR)   -57.6  sem top-10   +25.5  melhoram  46  n +0.269 [0.177, 0.271, 0.221, 0.364, 0.312]
+  metade de maior L                            gal  79  Δχ²(B2−RAR)   +15.7  sem top-10   +26.8  melhoram  38  n +0.077 [0.099, -0.024, 0.125, 0.069, 0.116]

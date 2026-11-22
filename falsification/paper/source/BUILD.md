@@ -1,0 +1,1 @@
+pandoc manuscript.md -o Maia_RGD_falsification.pdf --pdf-engine=xelatex --number-sections -V mainfont="DejaVu Serif" -V mathfont="Latin Modern Math" -V fontsize=10pt -V geometry:a4paper,margin=2.3cm -V linestretch=1.1 -V colorlinks=true -H header.tex

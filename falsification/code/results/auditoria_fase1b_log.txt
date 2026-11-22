@@ -1,0 +1,70 @@
+catálogo: 175 galáxias
+amostra: 159 galáxias, 3253 pontos, g_obs<=g_b: 192
+
+== 1. Amostra com parser corrigido  [159 gal, 3253 pts] ==
+  log r [kpc]                        0.202587   +2.63%   coef [0.1348]
+  livre (C,G,L)                      0.202642   +2.61%   coef [0.0773, 0.0743, -0.0773]
+  só G_proxy                         0.203614   +2.14%   coef [0.0902]
+  RAR                                0.208064   +0.00%   coef None
+
+== 2. Decomposição do raio: físico × angular × distância  [159 gal, 3253 pts] ==
+  log r [kpc]                        0.202587   +2.63%   coef [0.1348]
+  log r + log D                      0.205173   +1.39%   coef [0.1131, 0.0607]
+  log r_arcsec + log D               0.205181   +1.39%   coef [0.111, 0.1703]
+  log r/R_d                          0.205254   +1.35%   coef [0.1274]
+  log R_d (galáxia)                  0.207588   +0.23%   coef [0.1269]
+  log r/r_max                        0.207866   +0.10%   coef [0.074]
+  log D (galáxia)                    0.207954   +0.05%   coef [0.1204]
+  log r_arcsec (angular)             0.208031   +0.02%   coef [0.0563]
+  RAR                                0.208064   +0.00%   coef None
+
+== 3. sem os 2 pontos mais internos  [159 gal, 2935 pts] ==
+  só G_proxy                         0.175184   +0.83%   coef [0.0633]
+  log r [kpc]                        0.175371   +0.73%   coef [0.0849]
+  RAR                                0.176657   +0.00%   coef None
+  log D                              0.177190   -0.30%   coef [0.1144]
+
+== 3. r_arcsec > 30"  [157 gal, 2485 pts] ==
+  só G_proxy                         0.164223   +1.63%   coef [0.0753]
+  log r [kpc]                        0.164847   +1.26%   coef [0.1002]
+  log D                              0.165493   +0.87%   coef [0.082]
+  RAR                                0.166947   +0.00%   coef None
+
+== 3. r > 2 R_d  [154 gal, 1807 pts] ==
+  só G_proxy                         0.146982   +0.47%   coef [0.0459]
+  RAR                                0.147682   +0.00%   coef None
+  log r [kpc]                        0.147741   -0.04%   coef [0.0534]
+  log D                              0.147877   -0.13%   coef [0.0419]
+
+== 4. distâncias precisas (fD = 2,3,4,5: TRGB/Cefeidas/UMa/SN)  [69 gal, 1306 pts] ==
+  log r [kpc]                        0.198744   +6.59%   coef [0.2485]
+  log D                              0.210923   +0.87%   coef [0.156]
+  RAR                                0.212770   +0.00%   coef None
+
+== 4. distância por fluxo de Hubble (fD = 1)  [90 gal, 1947 pts] ==
+  RAR                                0.203067   +0.00%   coef None
+  log r [kpc]                        0.203770   -0.35%   coef [0.0395]
+  log D                              0.204870   -0.89%   coef [0.0621]
+
+== 4. erro relativo D < 10%  [44 gal, 888 pts] ==
+  log r [kpc]                        0.215519  +11.29%   coef [0.2952]
+  log D                              0.240067   +1.19%   coef [0.128]
+  RAR                                0.242960   +0.00%   coef None
+
+== 5. Inclinação e incerteza  [159 gal, 3253 pts] ==
+  log(eV/V)                          0.198640   +4.53%   coef [-0.2278]
+  log r + sin i                      0.202504   +2.67%   coef [0.136, -0.1092]
+  log r [kpc]                        0.202587   +2.63%   coef [0.1348]
+  RAR                                0.208064   +0.00%   coef None
+  sin i                              0.208267   -0.10%   coef [-0.0965]
+
+== 5b. Só inclinação > 50°  [111 gal, 2349 pts] ==
+  log r [kpc]                        0.199853   +3.41%   coef [0.1654]
+  RAR                                0.206918   +0.00%   coef None
+
+== 6. 20 partições ==
+  RAR                  +0.00% ± 0.00
+  log r [kpc]          +2.18% ± 0.37
+  log D                +0.83% ± 0.42
+  log r_arcsec         +0.08% ± 0.28
+  só G_proxy           +1.71% ± 0.42

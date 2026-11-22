@@ -1,0 +1,13 @@
+H0 = 70.0
+
+== Dados reais, f_* = G13: ξ_b grupos 0.019–0.043, X-COP 0.060–0.092; f_bar(R500) grupos 0.121, X-COP 0.153
+  v5     LOO (35) 0.074 dex | X-COP→grupos 0.085 dex (viés -0.033) | parâmetros [2.569]
+  nulo1  LOO (35) 0.094 dex | X-COP→grupos 0.146 dex (viés -0.127) | parâmetros [-0.904]
+  nulo2  LOO (35) 0.074 dex | X-COP→grupos 0.121 dex (viés +0.085) | parâmetros [-0.918, 0.107]
+  MOCK ΛCDM (200 réplicas, sem física nova): mediana X-COP→grupos v5 0.060, nulo1 0.135, nulo2 0.091; v5 vence em 79% das réplicas;  ganho real do v5 sobre o melhor nulo +0.037 dex (P_mock ≥ real = 0.45)
+
+== Dados reais, f_* = B14: ξ_b grupos 0.012–0.041, X-COP 0.059–0.093; f_bar(R500) grupos 0.094, X-COP 0.153
+  v5     LOO (35) 0.148 dex | X-COP→grupos 0.200 dex (viés -0.182) | parâmetros [3.761]
+  nulo1  LOO (35) 0.177 dex | X-COP→grupos 0.321 dex (viés -0.302) | parâmetros [-1.015]
+  nulo2  LOO (35) 0.069 dex | X-COP→grupos 0.076 dex (viés -0.018) | parâmetros [-1.022, 0.223]
+  MOCK ΛCDM (200 réplicas, sem física nova): mediana X-COP→grupos v5 0.189, nulo1 0.318, nulo2 0.062; v5 vence em 0% das réplicas;  ganho real do v5 sobre o melhor nulo -0.125 dex (P_mock ≥ real = 0.50)

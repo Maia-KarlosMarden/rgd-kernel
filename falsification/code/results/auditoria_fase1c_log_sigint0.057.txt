@@ -1,0 +1,20 @@
+
+== χ² SEM incômodos por galáxia (Υd, Υb, D, i)  σ_int=0.057 ==
+  log(eV/V)        χ²_teste    11742.3  Δχ² vs RAR     -81.4   RMSE/gal 0.2057 dex   globais médios [-9.7225, -0.1353, -0.0635]
+  RAR+K            χ²_teste    11822.3  Δχ² vs RAR      -1.3   RMSE/gal 0.2123 dex   globais médios [-9.6741, -0.1539, 0.0]
+  RAR              χ²_teste    11823.6  Δχ² vs RAR      +0.0   RMSE/gal 0.2131 dex   globais médios [-9.9327]
+  livre (C,G,L)    χ²_teste    11843.7  Δχ² vs RAR     +20.0   RMSE/gal 0.2129 dex   globais médios [-10.077, 0.1117, 0.0384, 0.0152, 0.0144]
+  log r            χ²_teste    11853.2  Δχ² vs RAR     +29.6   RMSE/gal 0.2107 dex   globais médios [-9.6569, -0.1668, 0.016]
+  [RAR] resíduo de teste: inclinação d(res)/d(log r) = +0.0937 dex/dex;  média 2 pts internos -0.1240, demais -0.0075
+  [RAR+K] resíduo de teste: inclinação d(res)/d(log r) = +0.0933 dex/dex;  média 2 pts internos -0.1254, demais -0.0080
+  [log r] resíduo de teste: inclinação d(res)/d(log r) = +0.0828 dex/dex;  média 2 pts internos -0.1167, demais -0.0073
+
+== χ² COM incômodos por galáxia (Υd, Υb, D, i)  σ_int=0.057 ==
+  log(eV/V)        χ²_teste     3259.1  Δχ² vs RAR     -25.7   RMSE/gal 0.1271 dex   globais médios [-9.7943, -0.0962, -0.0736]
+  RAR              χ²_teste     3284.8  Δχ² vs RAR      +0.0   RMSE/gal 0.1334 dex   globais médios [-9.9414]
+  log r            χ²_teste     3304.4  Δχ² vs RAR     +19.6   RMSE/gal 0.1299 dex   globais médios [-9.7061, -0.1443, 0.0355]
+  RAR+K            χ²_teste     3319.4  Δχ² vs RAR     +34.6   RMSE/gal 0.1334 dex   globais médios [-9.8005, -0.0814, 0.0]
+  livre (C,G,L)    χ²_teste     3368.1  Δχ² vs RAR     +83.4   RMSE/gal 0.1306 dex   globais médios [-9.9779, 0.0368, 0.043, 0.0275, -0.0185]
+  [RAR] resíduo de teste: inclinação d(res)/d(log r) = +0.0690 dex/dex;  média 2 pts internos -0.1008, demais -0.0059
+  [RAR+K] resíduo de teste: inclinação d(res)/d(log r) = +0.0702 dex/dex;  média 2 pts internos -0.1018, demais -0.0057
+  [log r] resíduo de teste: inclinação d(res)/d(log r) = +0.0594 dex/dex;  média 2 pts internos -0.0896, demais -0.0054

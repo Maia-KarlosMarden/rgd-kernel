@@ -1,0 +1,42 @@
+g‡ (inclinação 1/2, escala BCG, esta reconstrução) = 1.305e-09 m/s²   [Tian+2020 com todos os raios: 2.02e-9]
+espalhamento dos resíduos: 0.217 dex;  g_tot/g_bar mediano = 4.21
+
+cluster              L_bol(1e44)     g_bar     g_tot     a_eff   g_gamma  K exigido
+Abell 383                    6.7  1.23e-10  5.15e-10  2.16e-09  3.76e-19   1.04e+09
+Abell 209                   12.7  9.64e-11  2.64e-10  7.22e-10  7.13e-19   2.35e+08
+Abell 2261                  18.0  1.50e-10  1.61e-10  1.73e-10  6.12e-19   1.77e+07
+RX J2129.7+0005             11.4  7.37e-11  4.53e-10  2.79e-09  6.40e-19   5.93e+08
+Abell 611                   11.7  6.18e-11  1.76e-10  5.04e-10  4.23e-19   2.71e+08
+MS2137-2353                  9.9  1.20e-10  2.71e-10  6.14e-10  5.56e-19   2.72e+08
+RX J2248.7-4431             69.5  4.79e-11  9.40e-11  1.84e-10  1.84e-18   2.50e+07
+MACS J1115.9+0129           21.1  5.11e-11  3.32e-10  2.15e-09  1.05e-18   2.69e+08
+MACS J1931.8-2635           20.9  1.01e-10  4.91e-10  2.40e-09  1.17e-18   3.33e+08
+RX J1532.9+3021             20.5  7.49e-11  4.64e-10  2.87e-09  1.15e-18   3.38e+08
+MACS J1720.3+3536           13.3  8.68e-11  1.71e-10  3.36e-10  4.52e-19   1.86e+08
+MACS J0416.1-2403           16.0  2.14e-11  2.88e-10  3.87e-09  8.98e-19   2.96e+08
+MACS J0429.6-0253           11.2  1.81e-10  4.70e-10  1.22e-09  5.23e-19   5.54e+08
+MACS J1206.2-0847           43.0  2.87e-11  4.70e-10  7.71e-09  2.41e-18   1.83e+08
+MACS J0329.7-0211           17.0  1.34e-10  7.16e-10  3.81e-09  6.15e-19   9.45e+08
+RX J1347.5-1145             90.8  1.26e-10  4.96e-10  1.95e-09  5.10e-18   7.26e+07
+MACS J1149.5+2223           30.2  5.97e-11  3.09e-10  1.60e-09  1.70e-18   1.47e+08
+MACS J0717.5+3745           55.8  6.56e-11  2.77e-10  1.17e-09  3.13e-18   6.76e+07
+MACS J0647.7+7015           32.5  9.83e-11  5.26e-10  2.81e-09  1.82e-18   2.34e+08
+MACS J0744.9+3927           29.1  2.15e-10  5.21e-10  1.26e-09  1.63e-18   1.88e+08
+
+validação: max g_bar = 2.15e-10 (Tian+2020: ≈2.1e-10);  clusters com Δg>0: 20/20
+
+== Dependências (20 clusters) ==
+  resíduo da RAR de cluster vs log L_bol         Spearman +0.11 (p=0.659)  Pearson +0.05 (p=0.846)  inclinação +0.035
+  log a_eff (a0′ por cluster) vs log L_bol       Spearman +0.11 (p=0.659)  Pearson +0.05 (p=0.846)  inclinação +0.069
+  log a_eff vs log kT                            Spearman -0.00 (p=0.985)  Pearson +0.02 (p=0.920)  inclinação +0.081
+  log K exigido vs log L_bol  (hipótese: 0)      Spearman -0.71 (p=0.000)  Pearson -0.65 (p=0.002)  inclinação -0.981
+  resíduo vs log(L_bol/M_tot)                    Spearman -0.00 (p=0.990)  Pearson -0.09 (p=0.692)  inclinação -0.059
+  -- só clusters com gás medido na região da BCG (n=13)
+  resíduo vs log L_bol (gás medido)              Spearman -0.04 (p=0.887)  Pearson -0.14 (p=0.659)  inclinação -0.099
+  log K vs log L_bol (gás medido)                Spearman -0.61 (p=0.027)  Pearson -0.65 (p=0.017)  inclinação -1.108
+
+== Modelos, validação deixa-um-fora (20 clusters) ==
+  Newton (só bárions)                          χ²    548.1   RMSE 0.665 dex
+  RAR de cluster, g‡ universal                 χ²     62.2   RMSE 0.228 dex
+  Radiativo: g_bar + K·g_gamma, K universal    χ²    100.2   RMSE 0.284 dex
+  RAR de cluster × (L/L_ref)^s                 χ²     66.8   RMSE 0.238 dex

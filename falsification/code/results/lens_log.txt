@@ -1,0 +1,36 @@
+α_b interno (bárions, nominal): galáxias de 2.1e-09 a 1.6e-06 rad  (fator 771);  pontos de 3.6e-09 a 2.0e-06
+
+== 1. SPARC: χ² de teste (5-fold por galáxia, incômodos Υd, Υb, D, i; σ_int=0.057) ==
+  RAR            χ²   3284.8  Δχ²    +0.0   n por fold [0, 0, 0, 0, 0]   a0 1.14e-10
+  B1 α local     χ²   3246.8  Δχ²   -38.0   n por fold [0.07, 0.114, 0.071, 0.08, 0.08]   a0 1.19e-10
+  B2 α galáxia   χ²   3259.8  Δχ²   -25.0   n por fold [0.079, 0.11, 0.069, 0.064, 0.067]   a0 1.18e-10
+
+== 2. B2 no conjunto completo: n = +0.078;  IC95 (perfil, Δχ²<3.84, incômodos fixos): [+0.10, +0.10]
+     n=-0.30  Δχ²=  5512.3
+     n=-0.25  Δχ²=  4195.1
+     n=-0.20  Δχ²=  3043.4
+     n=-0.15  Δχ²=  2065.0
+     n=-0.10  Δχ²=  1267.0
+     n=-0.05  Δχ²=   655.9
+     n=-0.00  Δχ²=   237.6
+     n=+0.05  Δχ²=    17.4
+     n=+0.10  Δχ²=     0.0
+     n=+0.15  Δχ²=   189.5
+     n=+0.20  Δχ²=   589.2
+     n=+0.25  Δχ²=  1201.8
+     n=+0.30  Δχ²=  2029.5
+     n=+0.35  Δχ²=  3073.5
+     n=+0.40  Δχ²=  4334.2
+     n=+0.45  Δχ²=  5811.5
+     n=+0.50  Δχ²=  7504.2
+     n=+0.55  Δχ²=  9410.3
+     n=+0.60  Δχ²= 11526.7
+     n=+0.65  Δχ²= 13849.5
+     n=+0.70  Δχ²= 16373.7
+
+== 3. Clusters: deflexão interna bariônica (ensemble CLASH) ==
+  galáxias: α_b mediano 6.08e-08 rad;   a0 galáctico (RAR, χ²+incômodos) = 1.14e-10
+  r_c= 50 kpc: α_b(BCG)=3.39e-06  α_b(100 kpc)=9.81e-06  α_b(400 kpc)=1.29e-05  | α_cl/α_gal=161.5  → n EXIGIDO p/ g‡=2.02e-9: +0.56   | g‡ PREVISTO com n_galáxias: 1.60e-10
+  r_c=100 kpc: α_b(BCG)=2.50e-06  α_b(100 kpc)=7.72e-06  α_b(400 kpc)=1.33e-05  | α_cl/α_gal=127.0  → n EXIGIDO p/ g‡=2.02e-9: +0.59   | g‡ PREVISTO com n_galáxias: 1.57e-10
+  r_c=200 kpc: α_b(BCG)=2.09e-06  α_b(100 kpc)=6.00e-06  α_b(400 kpc)=1.42e-05  | α_cl/α_gal= 98.8  → n EXIGIDO p/ g‡=2.02e-9: +0.63   | g‡ PREVISTO com n_galáxias: 1.54e-10
+  entre clusters (escala BCG): Spearman(log α_b, log a_eff) = -0.55 (p=0.01)

@@ -1,0 +1,30 @@
+H0 = 70.0 km/s/Mpc → g† = cH0/2π = 1.082e-10 m/s²
+
+== T1 (Υ fixo) — CV 5-fold por galáxia ==
+  RAR            χ²/N 3.635  Δχ² vs RAR     +0.0  RMS/gal 0.2131 dex
+  RGD λ          χ²/N 3.902  Δχ² vs RAR   +868.6  RMS/gal 0.2137 dex
+  RGD λ=0.999    χ²/N 3.884  Δχ² vs RAR   +812.0  RMS/gal 0.2148 dex
+  λ por fold: [0.9965, 0.9818, 0.9601, 0.9936, 0.9865] (média 0.9837);  a0 RAR por fold: 1.168e-10;  λ² g† = 1.047e-10
+
+== T1 (marginalizado) — CV 5-fold por galáxia ==
+  RAR            χ²/N 1.010  Δχ² vs RAR     +0.0  RMS/gal 0.1334 dex
+  RGD λ          χ²/N 1.061  Δχ² vs RAR   +166.2  RMS/gal 0.1329 dex
+  RGD λ=0.999    χ²/N 1.088  Δχ² vs RAR   +254.7  RMS/gal 0.1343 dex
+  λ por fold: [0.9514, 0.9205, 0.931, 0.9243, 0.9372] (média 0.9329);  a0 RAR por fold: 1.145e-10;  λ² g† = 9.420e-11
+
+== T3 — inclinação A de n = 1/2 + A·ξ_b medida nas galáxias (χ² + incômodos) ==
+  ξ_b das galáxias 0.0006–0.0105;  A_gal por fold [-7.26, -9.69, -8.58, -10.97, -8.78]  (média -9.06 ± 1.23)
+  v5 A livre     Δχ² vs n=1/2:   -156.9
+  RGD λ=0.999    Δχ² vs n=1/2:     +0.0
+  v5 A=2.26      Δχ² vs n=1/2:    +73.3
+  v5 A=1.0       Δχ² vs n=1/2:    +31.0
+  perfil Δχ²(A), conjunto completo: A=-4: 0.0  A=-2: 45.9  A=0: 100.8  A=1: 131.8  A=2.26: 174.2  A=4: 238.7  A=6: 321.5
+
+== T4 — QUMOND exige y·K(y) estritamente crescente (g_obs monotônico em g_b) ==
+  n=0.50: min d ln(g_obs)/d ln(g_b) = +0.505 em y=1.00e-04  → bem-posto
+  n=0.70: min d ln(g_obs)/d ln(g_b) = +0.301 em y=1.00e-04  → bem-posto
+  n=0.80: min d ln(g_obs)/d ln(g_b) = +0.200 em y=1.00e-04  → bem-posto
+  n=0.95: min d ln(g_obs)/d ln(g_b) = +0.050 em y=1.00e-04  → bem-posto
+  n=1.00: min d ln(g_obs)/d ln(g_b) = +0.000 em y=1.00e-04  → bem-posto
+  n=1.20: min d ln(g_obs)/d ln(g_b) = -0.200 em y=1.64e-03  → NÃO invertível (lei de força mal definida)
+  n=2.50: min d ln(g_obs)/d ln(g_b) = -1.500 em y=1.00e-04  → NÃO invertível (lei de força mal definida)

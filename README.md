@@ -9,6 +9,11 @@ independent observational regimes, as presented in:
 > Unifying disk galaxies, galaxy groups, galaxy clusters, and gravitational
 > lensing under a single effective law.* Relational Gravitation Program, v18.
 
+> **Update (2026-11):** the folder [`falsification/`](falsification/) contains a falsification
+> study of the RGD (v4) kernel: the host-dependent exponent n(ξ) is reproduced by baryon-fraction
+> mocks with no new physics, and no local law fits both spirals and cluster BCGs. See
+> [`CHANGELOG.md`](CHANGELOG.md). The folder `v5/` is a separate, earlier line of work.
+
 ---
 
 ## The kernel
