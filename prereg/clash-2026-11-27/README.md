@@ -39,8 +39,8 @@ e = log10 K_predicted - log10 K_observed, K = g_obs/g_bar. Brackets: 95% cluster
 - The SPARC-only RAR falls below lensing by a factor of about 3.7. This is a statement about that
   relation, not support for H-host.
 - Deviations from the protocol and open checks: `runs/clash_eval/DESVIOS.md`. In short: primary
-  sample 15, not 16; the Umetsu et al. table was machine-extracted once and should be checked
-  against the paper; M200/c200 uncertainties were not propagated.
+  sample 15, not 16; the Umetsu et al. table was machine-extracted (see the update in that file)
+  and should be checked by a person against the paper; M200/c200 uncertainties were not propagated.
 
 **Decision:** no new functional form will be fitted to CLASH, which has now been seen. A mass-continuous
 form would need a non-local action written in advance and a new sample (preferably galaxy groups).

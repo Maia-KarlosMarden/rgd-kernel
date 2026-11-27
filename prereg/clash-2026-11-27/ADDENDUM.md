@@ -72,8 +72,8 @@ f_bar(M) mocks that Sec. 9 asks for, so this addendum should not be read as a Se
 - CLASH data are NFW fits and the mocks use NFW halos. This favours agreement between them and
   imposes part of the radial shape. Non-parametric masses would be needed to decide.
 - Small samples (6 and 15); bootstrap intervals with 6 clusters are coarse.
-- M200/c200 uncertainties were not propagated. The Umetsu table was machine-extracted once and
-  must be checked against the paper before citation.
+- M200/c200 uncertainties were not propagated. The Umetsu table was machine-extracted twice with
+  identical results; a check by a person against the paper is still pending.
 - Satellite stellar profiles are missing for CLASH.
 
 ## Conclusion
@@ -83,4 +83,4 @@ action written in advance, mocks with f_bar(M), and an unseen sample.
 ## Provenance
 `runs/replica_I1/` (criterion, results, per-cluster slopes) and `clash/replica_I1.py`. The script
 needs pipeline modules and X-COP files that are not included here; it is provided for provenance.
-The X-COP run behind Sec. 1 and the first bullet of Sec. 3 is not part of this folder.
+The X-COP run behind Sec. 1 and the first bullet of Sec. 3 is in [`../xcop-2026-11-26/`](../xcop-2026-11-26/).

@@ -7,3 +7,5 @@
 - Conversão Om 0,27 -> 0,30 aproximada pela razão de distâncias angulares (< 0,01 dex).
 - Incertezas de M200 e c200 (sem covariância publicada na tabela) não propagadas; ICs são bootstrap por cluster.
 - Mocks LCDM usam halo NFW e o dado é um ajuste NFW: isso favorece os mocks na forma radial.
+- Atualização (2026-11-27): segunda extração automática do PDF do arXiv deu as 20 linhas idênticas à primeira.
+  Mesmo método; a conferência por uma pessoa continua pendente.
