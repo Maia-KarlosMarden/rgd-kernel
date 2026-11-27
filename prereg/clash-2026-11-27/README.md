@@ -58,3 +58,6 @@ form would need a non-local action written in advance and a new sample (preferab
   gas masses here are derived from those electron density profiles.
 - Lensing NFW parameters: Umetsu et al. 2016, ApJ 821, 116 (arXiv:1507.04385), Table 2.
 - Calibration (not redistributed here): SPARC; X-COP.
+
+## Addendum
+`ADDENDUM.md` summarizes this record together with the I1 replication (`runs/replica_I1/`).
