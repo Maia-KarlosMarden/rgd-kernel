@@ -1,0 +1,22 @@
+{
+ "T1": "INCONCLUSIVO",
+ "T1_por_cenario": {
+  "baixo": "INCONCLUSIVO",
+  "mediano": "INCONCLUSIVO",
+  "alto": "INCONCLUSIVO"
+ },
+ "T3": {
+  "inclinacao": 0.2790772586344677,
+  "ic95": [
+   -0.0387382732687636,
+   0.8354203912626017
+  ],
+  "n": 15,
+  "exclui_zero": false
+ },
+ "T4_LCDM_explica_igual_ou_melhor": true,
+ "dlnKm1_dlnr": {
+  "obs": 0.05078903309165793,
+  "H": 0.4874607510669631
+ }
+}
