@@ -8,7 +8,7 @@ cone de luz. **O teste registrado ainda não foi feito.**
 |---|---|
 | `mice_not_run/` | Protocolo e código; o catálogo MICE nunca foi obtido. |
 | `smdpl/` | Rodado (caixa, um instante). Preliminar: 0,448±0,061 como especificado; 0,557±0,022 em análise posterior. |
-| `cosmodc2/` | Protocolo e código publicados; resultado ainda não registrado aqui. |
+| `cosmodc2/` | Rodado. Preliminar: 0,543±0,050 (principal) e 0,391±0,062 (vizinhos r<20); ver ressalvas. |
 
 ## Ordem dos fatos (o que a data deste commit prova e o que não prova)
 - SMDPL: os arquivos só foram publicados **depois** das medições. Os hashes foram gerados na sessão de trabalho,
