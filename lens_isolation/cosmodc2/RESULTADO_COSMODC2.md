@@ -29,3 +29,14 @@ Delta-Sigma (secundário, 1-3 Mpc, base): epsilon = 0,348+-0,033 (isoladas 1,482
    A seleção do mock ainda NÃO reproduz a real. Hipótese não testada: erros de photo-z independentes e
    gaussianos desfazem pares físicos.
 3. Faixa por faixa e tendência de massa da variante viz_r20: ainda não examinadas.
+
+## Adendo após ler dc2_resultado.json (incluído nesta pasta)
+- A análise secundária "sem hospedeiro" (todas as lentes) tem S/N do controle = 2,4 < 3 em todas as variantes:
+  pela regra do protocolo é INCONCLUSIVA. Os valores 0,68-0,74 da tabela não devem ser usados.
+- viz_r20 por faixa: 0,571+-0,106; 0,460+-0,087; 0,346+-0,072; 0,253+-0,053. Baixas menos altas: +0,216+-0,080.
+- Em todas as variantes principais as faixas leves são isoladas com mais eficiência que as pesadas
+  (+0,16 a +0,23): o critério de tendência de massa não é acionado.
+- Fração isolada, só lentes com 9,0 <= log Mb < 11,5: base 19,4% (8,0; 16,7; 26,2; 38,4 por faixa);
+  viz_r20 44,7% (27,0; 43,7; 56,5; 65,6). M24b informa ~16%.
+- Isso corrige a ressalva 1: viz_r20 se parece com o corte real na profundidade dos vizinhos, mas não na
+  fração isolada.
