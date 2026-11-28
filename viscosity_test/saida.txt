@@ -1,0 +1,30 @@
+== 1. Meio em repouso num espaco-tempo estatico (u paralelo ao vetor de Killing)
+theta = 0 | sigma nulo: True | aceleracao_r = Derivative(Phi(r), r)
+
+== 2. Brecha: meio em fluxo radial v=-sqrt(2GM/r) (limite newtoniano)
+theta = -3*sqrt(2)*sqrt(GM)/(2*r**(3/2)) | sigma_rr = sqrt(2)*sqrt(GM)/r**(3/2)
+
+== 3. O que cada tensao gera (Einstein linearizado)
+G00 - 2 lap(Psi) = 0
+traco espacial - 2 lap(Phi-Psi) = 0
+=> lap Psi = 4piG rho ; lap Phi = 4piG(rho + 3p/c2). Pressao p sem energia: dinamica recebe 3p/c2, lente (Phi+Psi)/2 recebe metade.
+
+== 4. Ordens de grandeza (exemplo redondo, nao e dado: massa extra 1e15 Msun em 1 Mpc)
+rho_extra=1.62e-23 kg/m3  p necessaria=4.84e-07 Pa  |zeta| (theta=3H)=7.39e+10 Pa s
+pressao homogenea 3H|zeta| / (rho_crit c2) = 631
+gradiente de pressao / peso do meio ~ c2/(g r) = 2.1e+04
+
+== 5. Estabilidade, modo transversal: rho s(1+tau s) + eta k2 = 0, com eta<0 (unidades arbitrarias)
+tau=0 k=    1  taxa de crescimento=1
+tau=0 k=   10  taxa de crescimento=100
+tau=0 k=  100  taxa de crescimento=1e+04
+tau=0 k= 1000  taxa de crescimento=1e+06
+tau=1 k=    1  taxa de crescimento=0.618
+tau=1 k=   10  taxa de crescimento=9.512
+tau=1 k=  100  taxa de crescimento=99.5
+tau=1 k= 1000  taxa de crescimento=999.5
+com estabilizador -kappa k^4, pico em k = [sqrt(2)*sqrt(nu)/(2*sqrt(kappa))]
+
+== 6. Ondas gravitacionais: amplitude x exp(-8 pi G eta D/c^3), D=40 Mpc
+desvio 10%: |eta| < 1.24e+09 Pa s
+desvio 20%: |eta| < 2.37e+09 Pa s
